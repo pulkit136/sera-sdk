@@ -6,7 +6,7 @@
 
 # Class: SeraTransportError
 
-Defined in: src/http/types.ts:50
+Defined in: [src/http/types.ts:50](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L50)
 
 A rich error containing diagnostic transport metadata from failed requests.
 
@@ -20,7 +20,7 @@ A rich error containing diagnostic transport metadata from failed requests.
 
 > **new SeraTransportError**(`message`, `metadata`, `originalError?`): `SeraTransportError`
 
-Defined in: src/http/types.ts:59
+Defined in: [src/http/types.ts:59](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L59)
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: node\_modules/typescript/lib/lib.es2022.error.d.ts:26
 
 > `readonly` **durationMs**: `number`
 
-Defined in: src/http/types.ts:56
+Defined in: [src/http/types.ts:56](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L56)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: src/http/types.ts:56
 
 > `readonly` **headers**: `Record`\<`string`, `string`\>
 
-Defined in: src/http/types.ts:54
+Defined in: [src/http/types.ts:54](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L54)
 
 ***
 
@@ -116,7 +116,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1077
 
 > `readonly` **method**: [`HttpMethod`](../type-aliases/HttpMethod.md)
 
-Defined in: src/http/types.ts:53
+Defined in: [src/http/types.ts:53](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L53)
 
 ***
 
@@ -136,7 +136,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` `optional` **rawResponse?**: `string`
 
-Defined in: src/http/types.ts:57
+Defined in: [src/http/types.ts:57](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L57)
 
 ***
 
@@ -144,7 +144,7 @@ Defined in: src/http/types.ts:57
 
 > `readonly` **requestId**: `string`
 
-Defined in: src/http/types.ts:55
+Defined in: [src/http/types.ts:55](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L55)
 
 ***
 
@@ -164,7 +164,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 > `readonly` `optional` **status?**: `number`
 
-Defined in: src/http/types.ts:51
+Defined in: [src/http/types.ts:51](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L51)
 
 ***
 
@@ -172,7 +172,7 @@ Defined in: src/http/types.ts:51
 
 > `readonly` **url**: `string`
 
-Defined in: src/http/types.ts:52
+Defined in: [src/http/types.ts:52](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L52)
 
 ***
 

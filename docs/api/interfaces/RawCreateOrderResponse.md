@@ -6,7 +6,7 @@
 
 # Interface: RawCreateOrderResponse
 
-Defined in: src/types/api/index.ts:96
+Defined in: [src/types/api/index.ts:96](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L96)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:96
 
 > `readonly` **order\_id**: `string`
 
-Defined in: src/types/api/index.ts:97
+Defined in: [src/types/api/index.ts:97](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L97)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:97
 
 > `readonly` **remaining\_amount**: `string`
 
-Defined in: src/types/api/index.ts:99
+Defined in: [src/types/api/index.ts:99](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L99)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/api/index.ts:99
 
 > `readonly` **status**: `string`
 
-Defined in: src/types/api/index.ts:98
+Defined in: [src/types/api/index.ts:98](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L98)

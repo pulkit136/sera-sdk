@@ -6,7 +6,7 @@
 
 # Class: PaymentsModule
 
-Defined in: src/modules/payments.ts:11
+Defined in: [src/modules/payments.ts:11](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/payments.ts#L11)
 
 Module responsible for creating, signing, executing, and tracking payments.
 
@@ -20,7 +20,7 @@ Module responsible for creating, signing, executing, and tracking payments.
 
 > **new PaymentsModule**(`context`): `PaymentsModule`
 
-Defined in: src/modules/base.ts:10
+Defined in: [src/modules/base.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/base.ts#L10)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: src/modules/base.ts:10
 
 > **estimate**(`params`): `Promise`\<[`PaymentEstimation`](../interfaces/PaymentEstimation.md)\>
 
-Defined in: src/modules/payments.ts:193
+Defined in: [src/modules/payments.ts:193](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/payments.ts#L193)
 
 Estimates transaction fees for executing a transfer.
 
@@ -68,7 +68,7 @@ Estimates transaction fees for executing a transfer.
 
 > **history**(`filters?`): `Promise`\<readonly [`PaymentResult`](../interfaces/PaymentResult.md)[]\>
 
-Defined in: src/modules/payments.ts:180
+Defined in: [src/modules/payments.ts:180](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/payments.ts#L180)
 
 Retrieves paginated payment history logs.
 
@@ -94,7 +94,7 @@ Retrieves paginated payment history logs.
 
 > **pay**(`params`): `Promise`\<[`PaymentResult`](../interfaces/PaymentResult.md)\>
 
-Defined in: src/modules/payments.ts:17
+Defined in: [src/modules/payments.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/payments.ts#L17)
 
 High-level flagship method to execute a complete payment.
 Automatically prepares the transfer details, requests EIP-712 signature from the wallet, submits, and returns execution.
@@ -129,7 +129,7 @@ Automatically prepares the transfer details, requests EIP-712 signature from the
 
 > **prepare**(`params`): `Promise`\<[`PaymentIntent`](../interfaces/PaymentIntent.md)\>
 
-Defined in: src/modules/payments.ts:57
+Defined in: [src/modules/payments.ts:57](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/payments.ts#L57)
 
 Prepares a payment by creating a transfer intent on the backend.
 
@@ -163,7 +163,7 @@ Prepares a payment by creating a transfer intent on the backend.
 
 > **sign**(`intent`): `Promise`\<`string`\>
 
-Defined in: src/modules/payments.ts:85
+Defined in: [src/modules/payments.ts:85](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/payments.ts#L85)
 
 Invokes EIP-712 message signing over prepared payment parameters.
 
@@ -183,7 +183,7 @@ Invokes EIP-712 message signing over prepared payment parameters.
 
 > **status**(`paymentId`): `Promise`\<[`PaymentStatusInfo`](../interfaces/PaymentStatusInfo.md)\>
 
-Defined in: src/modules/payments.ts:163
+Defined in: [src/modules/payments.ts:163](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/payments.ts#L163)
 
 Retrieves the current processing status of a specific payment.
 
@@ -203,7 +203,7 @@ Retrieves the current processing status of a specific payment.
 
 > **submit**(`intent`, `signature`): `Promise`\<[`PaymentResult`](../interfaces/PaymentResult.md)\>
 
-Defined in: src/modules/payments.ts:132
+Defined in: [src/modules/payments.ts:132](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/payments.ts#L132)
 
 Submits a signed payment instruction to the execution backend.
 

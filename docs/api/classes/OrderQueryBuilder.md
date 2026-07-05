@@ -6,7 +6,7 @@
 
 # Class: OrderQueryBuilder
 
-Defined in: src/modules/orders.ts:11
+Defined in: [src/modules/orders.ts:11](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L11)
 
 Fluent query builder to filter and retrieve orders with chained settings.
 
@@ -16,7 +16,7 @@ Fluent query builder to filter and retrieve orders with chained settings.
 
 > **new OrderQueryBuilder**(`module`): `OrderQueryBuilder`
 
-Defined in: src/modules/orders.ts:21
+Defined in: [src/modules/orders.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L21)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: src/modules/orders.ts:21
 
 > **fetch**(): `Promise`\<readonly [`LimitOrder`](../interfaces/LimitOrder.md)[]\>
 
-Defined in: src/modules/orders.ts:68
+Defined in: [src/modules/orders.ts:68](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L68)
 
 Execute the query and return matching limit orders.
 
@@ -48,7 +48,7 @@ Execute the query and return matching limit orders.
 
 > **limit**(`limit`): `this`
 
-Defined in: src/modules/orders.ts:52
+Defined in: [src/modules/orders.ts:52](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L52)
 
 Limit the number of query results.
 
@@ -68,7 +68,7 @@ Limit the number of query results.
 
 > **market**(`market`): `this`
 
-Defined in: src/modules/orders.ts:28
+Defined in: [src/modules/orders.ts:28](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L28)
 
 Filter orders by market pair (e.g. 'USDC/EURC').
 
@@ -88,7 +88,7 @@ Filter orders by market pair (e.g. 'USDC/EURC').
 
 > **offset**(`offset`): `this`
 
-Defined in: src/modules/orders.ts:60
+Defined in: [src/modules/orders.ts:60](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L60)
 
 Specify query offset pagination index.
 
@@ -108,7 +108,7 @@ Specify query offset pagination index.
 
 > **side**(`side`): `this`
 
-Defined in: src/modules/orders.ts:36
+Defined in: [src/modules/orders.ts:36](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L36)
 
 Filter orders by execution side (BUY or SELL).
 
@@ -128,7 +128,7 @@ Filter orders by execution side (BUY or SELL).
 
 > **status**(`status`): `this`
 
-Defined in: src/modules/orders.ts:44
+Defined in: [src/modules/orders.ts:44](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L44)
 
 Filter orders by active status (e.g. OPEN, FILLED).
 

@@ -6,7 +6,7 @@
 
 # Interface: Eip712Intent
 
-Defined in: src/types/domain/index.ts:186
+Defined in: [src/types/domain/index.ts:186](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L186)
 
 EIP-712 typed intent parameters to execute a swap on-chain.
 
@@ -16,7 +16,7 @@ EIP-712 typed intent parameters to execute a swap on-chain.
 
 > `readonly` **chainId**: `number`
 
-Defined in: src/types/domain/index.ts:196
+Defined in: [src/types/domain/index.ts:196](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L196)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/types/domain/index.ts:196
 
 > `readonly` **deadline**: `number`
 
-Defined in: src/types/domain/index.ts:195
+Defined in: [src/types/domain/index.ts:195](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L195)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: src/types/domain/index.ts:195
 
 > `readonly` **initialDepositAmount**: `string`
 
-Defined in: src/types/domain/index.ts:193
+Defined in: [src/types/domain/index.ts:193](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L193)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: src/types/domain/index.ts:193
 
 > `readonly` **inputToken**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:188
+Defined in: [src/types/domain/index.ts:188](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L188)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: src/types/domain/index.ts:188
 
 > `readonly` **maxInputAmount**: `string`
 
-Defined in: src/types/domain/index.ts:190
+Defined in: [src/types/domain/index.ts:190](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L190)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: src/types/domain/index.ts:190
 
 > `readonly` **minOutputAmount**: `string`
 
-Defined in: src/types/domain/index.ts:191
+Defined in: [src/types/domain/index.ts:191](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L191)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: src/types/domain/index.ts:191
 
 > `readonly` **outputToken**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:189
+Defined in: [src/types/domain/index.ts:189](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L189)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: src/types/domain/index.ts:189
 
 > `readonly` **recipient**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:192
+Defined in: [src/types/domain/index.ts:192](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L192)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: src/types/domain/index.ts:192
 
 > `readonly` **taker**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:187
+Defined in: [src/types/domain/index.ts:187](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L187)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: src/types/domain/index.ts:187
 
 > `readonly` **uuid**: `string`
 
-Defined in: src/types/domain/index.ts:194
+Defined in: [src/types/domain/index.ts:194](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L194)
 
 ***
 
@@ -96,4 +96,4 @@ Defined in: src/types/domain/index.ts:194
 
 > `readonly` **verifyingContract**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:197
+Defined in: [src/types/domain/index.ts:197](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L197)

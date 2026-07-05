@@ -6,7 +6,7 @@
 
 # Interface: RawOrder
 
-Defined in: src/types/api/index.ts:129
+Defined in: [src/types/api/index.ts:129](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L129)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:129
 
 > `readonly` **amount**: `string`
 
-Defined in: src/types/api/index.ts:133
+Defined in: [src/types/api/index.ts:133](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L133)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:133
 
 > `readonly` **created\_at**: `number`
 
-Defined in: src/types/api/index.ts:137
+Defined in: [src/types/api/index.ts:137](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L137)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/api/index.ts:137
 
 > `readonly` `optional` **expires\_at?**: `number`
 
-Defined in: src/types/api/index.ts:138
+Defined in: [src/types/api/index.ts:138](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L138)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/api/index.ts:138
 
 > `readonly` **id**: `string`
 
-Defined in: src/types/api/index.ts:130
+Defined in: [src/types/api/index.ts:130](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L130)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/api/index.ts:130
 
 > `readonly` **market**: `string`
 
-Defined in: src/types/api/index.ts:131
+Defined in: [src/types/api/index.ts:131](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L131)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/api/index.ts:131
 
 > `readonly` **price**: `string`
 
-Defined in: src/types/api/index.ts:134
+Defined in: [src/types/api/index.ts:134](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L134)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/api/index.ts:134
 
 > `readonly` **remaining\_amount**: `string`
 
-Defined in: src/types/api/index.ts:135
+Defined in: [src/types/api/index.ts:135](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L135)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: src/types/api/index.ts:135
 
 > `readonly` **side**: `string`
 
-Defined in: src/types/api/index.ts:132
+Defined in: [src/types/api/index.ts:132](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L132)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: src/types/api/index.ts:132
 
 > `readonly` **status**: `string`
 
-Defined in: src/types/api/index.ts:136
+Defined in: [src/types/api/index.ts:136](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L136)
 
 ***
 
@@ -86,4 +86,4 @@ Defined in: src/types/api/index.ts:136
 
 > `readonly` **time\_in\_force**: `string`
 
-Defined in: src/types/api/index.ts:139
+Defined in: [src/types/api/index.ts:139](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L139)

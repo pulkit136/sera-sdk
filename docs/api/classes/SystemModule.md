@@ -6,7 +6,7 @@
 
 # Class: SystemModule
 
-Defined in: src/modules/system.ts:29
+Defined in: [src/modules/system.ts:29](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L29)
 
 Module responsible for fetching read-only protocol metadata, tokens, and active markets.
 
@@ -20,7 +20,7 @@ Module responsible for fetching read-only protocol metadata, tokens, and active 
 
 > **new SystemModule**(`context`): `SystemModule`
 
-Defined in: src/modules/base.ts:10
+Defined in: [src/modules/base.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/base.ts#L10)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: src/modules/base.ts:10
 
 > **config**(`options?`): `Promise`\<[`SystemConfigInfo`](../interfaces/SystemConfigInfo.md)\>
 
-Defined in: src/modules/system.ts:43
+Defined in: [src/modules/system.ts:43](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L43)
 
 Retrieve protocol-wide configuration parameters (verifying contract address, chain IDs, fees).
 
@@ -62,7 +62,7 @@ Retrieve protocol-wide configuration parameters (verifying contract address, cha
 
 > **health**(`options?`): `Promise`\<[`HealthInfo`](../interfaces/HealthInfo.md)\>
 
-Defined in: src/modules/system.ts:36
+Defined in: [src/modules/system.ts:36](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L36)
 
 Check the health status of Sera's matching engine and signature execution pipeline.
 
@@ -82,7 +82,7 @@ Check the health status of Sera's matching engine and signature execution pipeli
 
 > **market**(`symbol`, `options?`): `Promise`\<[`MarketInfo`](../interfaces/MarketInfo.md) \| `undefined`\>
 
-Defined in: src/modules/system.ts:76
+Defined in: [src/modules/system.ts:76](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L76)
 
 Helper look-up for details of a specific trading market pair (e.g. 'USDC/EURC').
 
@@ -106,7 +106,7 @@ Helper look-up for details of a specific trading market pair (e.g. 'USDC/EURC').
 
 > **markets**(`options?`): `Promise`\<readonly [`MarketInfo`](../interfaces/MarketInfo.md)[]\>
 
-Defined in: src/modules/system.ts:67
+Defined in: [src/modules/system.ts:67](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L67)
 
 Returns list of all active stablecoin trading markets.
 
@@ -126,7 +126,7 @@ Returns list of all active stablecoin trading markets.
 
 > **refresh**(): `void`
 
-Defined in: src/modules/system.ts:98
+Defined in: [src/modules/system.ts:98](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L98)
 
 Evicts the entire local query cache.
 
@@ -140,7 +140,7 @@ Evicts the entire local query cache.
 
 > **supportedAssets**(): readonly [`AssetType`](../enumerations/AssetType.md)[]
 
-Defined in: src/modules/system.ts:91
+Defined in: [src/modules/system.ts:91](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L91)
 
 Returns a list of asset types supported.
 
@@ -154,7 +154,7 @@ readonly [`AssetType`](../enumerations/AssetType.md)[]
 
 > **supportedChains**(): readonly [`Chain`](../enumerations/Chain.md)[]
 
-Defined in: src/modules/system.ts:84
+Defined in: [src/modules/system.ts:84](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L84)
 
 Returns a list of chains currently supported by the SDK.
 
@@ -168,7 +168,7 @@ readonly [`Chain`](../enumerations/Chain.md)[]
 
 > **token**(`symbol`, `options?`): `Promise`\<[`TokenInfo`](../interfaces/TokenInfo.md) \| `undefined`\>
 
-Defined in: src/modules/system.ts:59
+Defined in: [src/modules/system.ts:59](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L59)
 
 Helper look-up for details of a specific token symbol (e.g. 'USDC').
 
@@ -192,7 +192,7 @@ Helper look-up for details of a specific token symbol (e.g. 'USDC').
 
 > **tokens**(`options?`): `Promise`\<readonly [`TokenInfo`](../interfaces/TokenInfo.md)[]\>
 
-Defined in: src/modules/system.ts:50
+Defined in: [src/modules/system.ts:50](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L50)
 
 Returns list of all tokens registered on Sera Protocol.
 

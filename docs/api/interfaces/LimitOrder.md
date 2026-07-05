@@ -6,7 +6,7 @@
 
 # Interface: LimitOrder
 
-Defined in: src/types/domain/index.ts:127
+Defined in: [src/types/domain/index.ts:127](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L127)
 
 Represents a limit order in the Sera Central Limit Order Book (CLOB).
 
@@ -16,7 +16,7 @@ Represents a limit order in the Sera Central Limit Order Book (CLOB).
 
 > `readonly` **amount**: `string`
 
-Defined in: src/types/domain/index.ts:144
+Defined in: [src/types/domain/index.ts:144](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L144)
 
 Total token amount to trade, in base-10 decimal string.
 
@@ -32,7 +32,7 @@ Total token amount to trade, in base-10 decimal string.
 
 > `readonly` **createdAt**: `number`
 
-Defined in: src/types/domain/index.ts:162
+Defined in: [src/types/domain/index.ts:162](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L162)
 
 Unix timestamp representing order placement.
 
@@ -42,7 +42,7 @@ Unix timestamp representing order placement.
 
 > `readonly` `optional` **expiresAt?**: `number`
 
-Defined in: src/types/domain/index.ts:166
+Defined in: [src/types/domain/index.ts:166](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L166)
 
 Unix timestamp when the order will expire if not filled (optional).
 
@@ -52,7 +52,7 @@ Unix timestamp when the order will expire if not filled (optional).
 
 > `readonly` **id**: [`OrderId`](../type-aliases/OrderId.md)
 
-Defined in: src/types/domain/index.ts:131
+Defined in: [src/types/domain/index.ts:131](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L131)
 
 Unique order identifier.
 
@@ -62,7 +62,7 @@ Unique order identifier.
 
 > `readonly` **market**: `string`
 
-Defined in: src/types/domain/index.ts:135
+Defined in: [src/types/domain/index.ts:135](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L135)
 
 The market ticker traded (e.g., 'USDC/EURC').
 
@@ -72,7 +72,7 @@ The market ticker traded (e.g., 'USDC/EURC').
 
 > `readonly` **price**: `string`
 
-Defined in: src/types/domain/index.ts:149
+Defined in: [src/types/domain/index.ts:149](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L149)
 
 Price limit specified, in base-10 decimal string.
 
@@ -88,7 +88,7 @@ Price limit specified, in base-10 decimal string.
 
 > `readonly` **remainingAmount**: `string`
 
-Defined in: src/types/domain/index.ts:154
+Defined in: [src/types/domain/index.ts:154](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L154)
 
 Remaining amount unfilled, in base-10 decimal string.
 
@@ -104,7 +104,7 @@ Remaining amount unfilled, in base-10 decimal string.
 
 > `readonly` **side**: [`OrderSide`](../enumerations/OrderSide.md)
 
-Defined in: src/types/domain/index.ts:139
+Defined in: [src/types/domain/index.ts:139](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L139)
 
 Order side (BUY or SELL).
 
@@ -114,7 +114,7 @@ Order side (BUY or SELL).
 
 > `readonly` **status**: [`OrderStatus`](../enumerations/OrderStatus.md)
 
-Defined in: src/types/domain/index.ts:158
+Defined in: [src/types/domain/index.ts:158](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L158)
 
 Execution status of the order.
 
@@ -124,6 +124,6 @@ Execution status of the order.
 
 > `readonly` **timeInForce**: [`TimeInForce`](../enumerations/TimeInForce.md)
 
-Defined in: src/types/domain/index.ts:170
+Defined in: [src/types/domain/index.ts:170](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L170)
 
 Time-in-force instruction (GTC, IOC, FOK).

@@ -6,7 +6,7 @@
 
 # Class: SilentLogger
 
-Defined in: src/utils/logger.ts:37
+Defined in: [src/utils/logger.ts:37](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L37)
 
 Silent logger used when debug mode is disabled.
 
@@ -30,7 +30,7 @@ Silent logger used when debug mode is disabled.
 
 > **debug**(): `void`
 
-Defined in: src/utils/logger.ts:38
+Defined in: [src/utils/logger.ts:38](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L38)
 
 #### Returns
 
@@ -46,7 +46,7 @@ Defined in: src/utils/logger.ts:38
 
 > **error**(): `void`
 
-Defined in: src/utils/logger.ts:41
+Defined in: [src/utils/logger.ts:41](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L41)
 
 #### Returns
 
@@ -62,7 +62,7 @@ Defined in: src/utils/logger.ts:41
 
 > **info**(): `void`
 
-Defined in: src/utils/logger.ts:39
+Defined in: [src/utils/logger.ts:39](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L39)
 
 #### Returns
 
@@ -78,7 +78,7 @@ Defined in: src/utils/logger.ts:39
 
 > **warn**(): `void`
 
-Defined in: src/utils/logger.ts:40
+Defined in: [src/utils/logger.ts:40](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L40)
 
 #### Returns
 

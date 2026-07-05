@@ -6,7 +6,7 @@
 
 # Class: OrdersModule
 
-Defined in: src/modules/orders.ts:76
+Defined in: [src/modules/orders.ts:76](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L76)
 
 Module for placing, cancelling, and querying limit orders in the CLOB.
 
@@ -20,7 +20,7 @@ Module for placing, cancelling, and querying limit orders in the CLOB.
 
 > **new OrdersModule**(`context`): `OrdersModule`
 
-Defined in: src/modules/base.ts:10
+Defined in: [src/modules/base.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/base.ts#L10)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: src/modules/base.ts:10
 
 > **buildIntent**(`params`): `object`
 
-Defined in: src/modules/orders.ts:239
+Defined in: [src/modules/orders.ts:239](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L239)
 
 Format intent values from order configuration.
 
@@ -92,7 +92,7 @@ Format intent values from order configuration.
 
 > **cancel**(`orderId`): `Promise`\<\{ `orderId`: [`OrderId`](../type-aliases/OrderId.md); `status`: [`OrderStatus`](../enumerations/OrderStatus.md); \}\>
 
-Defined in: src/modules/orders.ts:142
+Defined in: [src/modules/orders.ts:142](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L142)
 
 Cancel an open limit order, signing EIP-712 cancellation instruction.
 
@@ -112,7 +112,7 @@ Cancel an open limit order, signing EIP-712 cancellation instruction.
 
 > **cancelAll**(): `Promise`\<`void`\>
 
-Defined in: src/modules/orders.ts:192
+Defined in: [src/modules/orders.ts:192](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L192)
 
 Cancel all open orders for the active signer.
 
@@ -126,7 +126,7 @@ Cancel all open orders for the active signer.
 
 > **create**(`params`): `Promise`\<[`LimitOrder`](../interfaces/LimitOrder.md)\>
 
-Defined in: src/modules/orders.ts:81
+Defined in: [src/modules/orders.ts:81](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L81)
 
 Places a limit order by building EIP-712 parameters, requesting signatures, and submitting to matching ledger.
 
@@ -164,7 +164,7 @@ Places a limit order by building EIP-712 parameters, requesting signatures, and 
 
 > **get**(`orderId`): `Promise`\<[`LimitOrder`](../interfaces/LimitOrder.md)\>
 
-Defined in: src/modules/orders.ts:201
+Defined in: [src/modules/orders.ts:201](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L201)
 
 Get detail of a specific order.
 
@@ -184,7 +184,7 @@ Get detail of a specific order.
 
 > **list**(`filters?`): `Promise`\<readonly [`LimitOrder`](../interfaces/LimitOrder.md)[]\>
 
-Defined in: src/modules/orders.ts:210
+Defined in: [src/modules/orders.ts:210](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L210)
 
 List limit orders using paginated parameters.
 
@@ -222,7 +222,7 @@ List limit orders using paginated parameters.
 
 > **query**(): [`OrderQueryBuilder`](OrderQueryBuilder.md)
 
-Defined in: src/modules/orders.ts:232
+Defined in: [src/modules/orders.ts:232](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L232)
 
 Returns a fluent query builder to easily chain order filtering.
 
@@ -236,7 +236,7 @@ Returns a fluent query builder to easily chain order filtering.
 
 > **sign**(`intent`): `Promise`\<`string`\>
 
-Defined in: src/modules/orders.ts:251
+Defined in: [src/modules/orders.ts:251](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L251)
 
 Signs EIP-712 order intent parameters.
 
@@ -256,7 +256,7 @@ Signs EIP-712 order intent parameters.
 
 > **submit**(`params`): `Promise`\<[`RawCreateOrderResponse`](../interfaces/RawCreateOrderResponse.md)\>
 
-Defined in: src/modules/orders.ts:276
+Defined in: [src/modules/orders.ts:276](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/orders.ts#L276)
 
 Submits order parameters and wallet signature to POST /orders.
 

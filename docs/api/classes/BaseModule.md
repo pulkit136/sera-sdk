@@ -6,7 +6,7 @@
 
 # Class: BaseModule
 
-Defined in: src/modules/base.ts:7
+Defined in: [src/modules/base.ts:7](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/base.ts#L7)
 
 Base module class that all namespaced SDK endpoints inherit from.
 Enforces shared SdkContext injection to prevent reliance on global state.
@@ -26,7 +26,7 @@ Enforces shared SdkContext injection to prevent reliance on global state.
 
 > **new BaseModule**(`context`): `BaseModule`
 
-Defined in: src/modules/base.ts:10
+Defined in: [src/modules/base.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/base.ts#L10)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: RawEip712Intent
 
-Defined in: src/types/api/index.ts:41
+Defined in: [src/types/api/index.ts:41](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L41)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:41
 
 > `readonly` **chain\_id**: `number`
 
-Defined in: src/types/api/index.ts:51
+Defined in: [src/types/api/index.ts:51](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L51)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:51
 
 > `readonly` **deadline**: `number`
 
-Defined in: src/types/api/index.ts:50
+Defined in: [src/types/api/index.ts:50](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L50)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/api/index.ts:50
 
 > `readonly` **initial\_deposit\_amount**: `string`
 
-Defined in: src/types/api/index.ts:48
+Defined in: [src/types/api/index.ts:48](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L48)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/api/index.ts:48
 
 > `readonly` **input\_token**: `string`
 
-Defined in: src/types/api/index.ts:43
+Defined in: [src/types/api/index.ts:43](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L43)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/api/index.ts:43
 
 > `readonly` **max\_input\_amount**: `string`
 
-Defined in: src/types/api/index.ts:45
+Defined in: [src/types/api/index.ts:45](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L45)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/api/index.ts:45
 
 > `readonly` **min\_output\_amount**: `string`
 
-Defined in: src/types/api/index.ts:46
+Defined in: [src/types/api/index.ts:46](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L46)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/api/index.ts:46
 
 > `readonly` **output\_token**: `string`
 
-Defined in: src/types/api/index.ts:44
+Defined in: [src/types/api/index.ts:44](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L44)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: src/types/api/index.ts:44
 
 > `readonly` **recipient**: `string`
 
-Defined in: src/types/api/index.ts:47
+Defined in: [src/types/api/index.ts:47](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L47)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: src/types/api/index.ts:47
 
 > `readonly` **taker**: `string`
 
-Defined in: src/types/api/index.ts:42
+Defined in: [src/types/api/index.ts:42](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L42)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: src/types/api/index.ts:42
 
 > `readonly` **uuid**: `string`
 
-Defined in: src/types/api/index.ts:49
+Defined in: [src/types/api/index.ts:49](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L49)
 
 ***
 
@@ -94,4 +94,4 @@ Defined in: src/types/api/index.ts:49
 
 > `readonly` **verifying\_contract**: `string`
 
-Defined in: src/types/api/index.ts:52
+Defined in: [src/types/api/index.ts:52](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L52)

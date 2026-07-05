@@ -6,7 +6,7 @@
 
 # Enumeration: Network
 
-Defined in: src/types/enums/index.ts:76
+Defined in: [src/types/enums/index.ts:76](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L76)
 
 Supported Network Names
 
@@ -16,7 +16,7 @@ Supported Network Names
 
 > **MAINNET**: `"ethereum-mainnet"`
 
-Defined in: src/types/enums/index.ts:77
+Defined in: [src/types/enums/index.ts:77](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L77)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: src/types/enums/index.ts:77
 
 > **SEPOLIA**: `"ethereum-sepolia"`
 
-Defined in: src/types/enums/index.ts:78
+Defined in: [src/types/enums/index.ts:78](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L78)

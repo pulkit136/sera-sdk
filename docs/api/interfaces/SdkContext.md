@@ -6,7 +6,7 @@
 
 # Interface: SdkContext
 
-Defined in: src/types/domain/config.ts:52
+Defined in: [src/types/domain/config.ts:52](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L52)
 
 Shared context container passed to all namespaces to prevent global state dependencies.
 
@@ -16,7 +16,7 @@ Shared context container passed to all namespaces to prevent global state depend
 
 > `readonly` **auth**: [`AuthEngine`](../classes/AuthEngine.md)
 
-Defined in: src/types/domain/config.ts:55
+Defined in: [src/types/domain/config.ts:55](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L55)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/types/domain/config.ts:55
 
 > `readonly` **client**: `any`
 
-Defined in: src/types/domain/config.ts:53
+Defined in: [src/types/domain/config.ts:53](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L53)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: src/types/domain/config.ts:53
 
 > `readonly` **config**: [`SdkConfig`](SdkConfig.md)
 
-Defined in: src/types/domain/config.ts:54
+Defined in: [src/types/domain/config.ts:54](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L54)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: src/types/domain/config.ts:54
 
 > `readonly` **events**: [`TypedEventEmitter`](../classes/TypedEventEmitter.md)
 
-Defined in: src/types/domain/config.ts:58
+Defined in: [src/types/domain/config.ts:58](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L58)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: src/types/domain/config.ts:58
 
 > `readonly` **hooks**: [`HookRegistry`](../classes/HookRegistry.md)
 
-Defined in: src/types/domain/config.ts:57
+Defined in: [src/types/domain/config.ts:57](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L57)
 
 ***
 
@@ -56,4 +56,4 @@ Defined in: src/types/domain/config.ts:57
 
 > `readonly` **httpClient**: [`HttpClient`](../classes/HttpClient.md)
 
-Defined in: src/types/domain/config.ts:56
+Defined in: [src/types/domain/config.ts:56](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L56)

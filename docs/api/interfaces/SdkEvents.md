@@ -6,7 +6,7 @@
 
 # Interface: SdkEvents
 
-Defined in: src/events/types.ts:11
+Defined in: [src/events/types.ts:11](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L11)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/events/types.ts:11
 
 > **balance:cacheHit**: `object`
 
-Defined in: src/events/types.ts:25
+Defined in: [src/events/types.ts:25](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L25)
 
 #### address
 
@@ -26,7 +26,7 @@ Defined in: src/events/types.ts:25
 
 > **balance:failed**: `object`
 
-Defined in: src/events/types.ts:26
+Defined in: [src/events/types.ts:26](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L26)
 
 #### error
 
@@ -38,7 +38,7 @@ Defined in: src/events/types.ts:26
 
 > **balance:loaded**: `object`
 
-Defined in: src/events/types.ts:23
+Defined in: [src/events/types.ts:23](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L23)
 
 #### balances
 
@@ -50,7 +50,7 @@ Defined in: src/events/types.ts:23
 
 > **balance:refreshed**: `object`
 
-Defined in: src/events/types.ts:24
+Defined in: [src/events/types.ts:24](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L24)
 
 #### balances
 
@@ -62,7 +62,7 @@ Defined in: src/events/types.ts:24
 
 > **error:thrown**: `object`
 
-Defined in: src/events/types.ts:41
+Defined in: [src/events/types.ts:41](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L41)
 
 #### error
 
@@ -74,7 +74,7 @@ Defined in: src/events/types.ts:41
 
 > **order:cancelled**: `object`
 
-Defined in: src/events/types.ts:19
+Defined in: [src/events/types.ts:19](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L19)
 
 #### orderId
 
@@ -86,7 +86,7 @@ Defined in: src/events/types.ts:19
 
 > **order:created**: `object`
 
-Defined in: src/events/types.ts:18
+Defined in: [src/events/types.ts:18](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L18)
 
 #### order
 
@@ -98,7 +98,7 @@ Defined in: src/events/types.ts:18
 
 > **order:failed**: `object`
 
-Defined in: src/events/types.ts:22
+Defined in: [src/events/types.ts:22](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L22)
 
 #### error
 
@@ -110,7 +110,7 @@ Defined in: src/events/types.ts:22
 
 > **order:list**: `object`
 
-Defined in: src/events/types.ts:21
+Defined in: [src/events/types.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L21)
 
 #### orders
 
@@ -122,7 +122,7 @@ Defined in: src/events/types.ts:21
 
 > **order:updated**: `object`
 
-Defined in: src/events/types.ts:20
+Defined in: [src/events/types.ts:20](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L20)
 
 #### order
 
@@ -134,7 +134,7 @@ Defined in: src/events/types.ts:20
 
 > **payment:completed**: `object`
 
-Defined in: src/events/types.ts:33
+Defined in: [src/events/types.ts:33](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L33)
 
 #### result
 
@@ -146,7 +146,7 @@ Defined in: src/events/types.ts:33
 
 > **payment:failed**: `object`
 
-Defined in: src/events/types.ts:34
+Defined in: [src/events/types.ts:34](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L34)
 
 #### error
 
@@ -158,7 +158,7 @@ Defined in: src/events/types.ts:34
 
 > **payment:prepared**: `object`
 
-Defined in: src/events/types.ts:31
+Defined in: [src/events/types.ts:31](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L31)
 
 #### intent
 
@@ -170,7 +170,7 @@ Defined in: src/events/types.ts:31
 
 > **payment:statusChanged**: `object`
 
-Defined in: src/events/types.ts:35
+Defined in: [src/events/types.ts:35](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L35)
 
 #### paymentId
 
@@ -186,7 +186,7 @@ Defined in: src/events/types.ts:35
 
 > **payment:submitted**: `object`
 
-Defined in: src/events/types.ts:32
+Defined in: [src/events/types.ts:32](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L32)
 
 #### paymentId
 
@@ -198,7 +198,7 @@ Defined in: src/events/types.ts:32
 
 > **rate\_limit:exceeded**: `object`
 
-Defined in: src/events/types.ts:40
+Defined in: [src/events/types.ts:40](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L40)
 
 #### retryAfterSeconds
 
@@ -210,7 +210,7 @@ Defined in: src/events/types.ts:40
 
 > **swap:completed**: `object`
 
-Defined in: src/events/types.ts:16
+Defined in: [src/events/types.ts:16](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L16)
 
 #### result
 
@@ -222,7 +222,7 @@ Defined in: src/events/types.ts:16
 
 > **swap:executed**: `object`
 
-Defined in: src/events/types.ts:12
+Defined in: [src/events/types.ts:12](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L12)
 
 #### amount
 
@@ -246,7 +246,7 @@ Defined in: src/events/types.ts:12
 
 > **swap:failed**: `object`
 
-Defined in: src/events/types.ts:17
+Defined in: [src/events/types.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L17)
 
 #### error
 
@@ -258,7 +258,7 @@ Defined in: src/events/types.ts:17
 
 > **swap:quote**: `object`
 
-Defined in: src/events/types.ts:13
+Defined in: [src/events/types.ts:13](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L13)
 
 #### quote
 
@@ -270,7 +270,7 @@ Defined in: src/events/types.ts:13
 
 > **swap:simulation**: `object`
 
-Defined in: src/events/types.ts:14
+Defined in: [src/events/types.ts:14](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L14)
 
 #### simulation
 
@@ -282,7 +282,7 @@ Defined in: src/events/types.ts:14
 
 > **swap:submitted**: `object`
 
-Defined in: src/events/types.ts:15
+Defined in: [src/events/types.ts:15](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L15)
 
 #### quoteId
 
@@ -294,7 +294,7 @@ Defined in: src/events/types.ts:15
 
 > **system:cacheHit**: `object`
 
-Defined in: src/events/types.ts:29
+Defined in: [src/events/types.ts:29](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L29)
 
 #### key
 
@@ -306,7 +306,7 @@ Defined in: src/events/types.ts:29
 
 > **system:failed**: `object`
 
-Defined in: src/events/types.ts:30
+Defined in: [src/events/types.ts:30](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L30)
 
 #### error
 
@@ -318,7 +318,7 @@ Defined in: src/events/types.ts:30
 
 > **system:loaded**: `object`
 
-Defined in: src/events/types.ts:27
+Defined in: [src/events/types.ts:27](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L27)
 
 #### data
 
@@ -334,7 +334,7 @@ Defined in: src/events/types.ts:27
 
 > **system:refreshed**: `object`
 
-Defined in: src/events/types.ts:28
+Defined in: [src/events/types.ts:28](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L28)
 
 #### data
 
@@ -350,7 +350,7 @@ Defined in: src/events/types.ts:28
 
 > **virtualLiquidity:cancelled**: `object`
 
-Defined in: src/events/types.ts:37
+Defined in: [src/events/types.ts:37](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L37)
 
 #### batchId
 
@@ -362,7 +362,7 @@ Defined in: src/events/types.ts:37
 
 > **virtualLiquidity:created**: `object`
 
-Defined in: src/events/types.ts:36
+Defined in: [src/events/types.ts:36](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L36)
 
 #### batch
 
@@ -374,7 +374,7 @@ Defined in: src/events/types.ts:36
 
 > **virtualLiquidity:failed**: `object`
 
-Defined in: src/events/types.ts:39
+Defined in: [src/events/types.ts:39](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L39)
 
 #### error
 
@@ -386,7 +386,7 @@ Defined in: src/events/types.ts:39
 
 > **virtualLiquidity:updated**: `object`
 
-Defined in: src/events/types.ts:38
+Defined in: [src/events/types.ts:38](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L38)
 
 #### batch
 

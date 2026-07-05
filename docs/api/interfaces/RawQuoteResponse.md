@@ -6,7 +6,7 @@
 
 # Interface: RawQuoteResponse
 
-Defined in: src/types/api/index.ts:62
+Defined in: [src/types/api/index.ts:62](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L62)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:62
 
 > `readonly` **expected\_output\_amount**: `string`
 
-Defined in: src/types/api/index.ts:67
+Defined in: [src/types/api/index.ts:67](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L67)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:67
 
 > `readonly` **expires\_at**: `number`
 
-Defined in: src/types/api/index.ts:71
+Defined in: [src/types/api/index.ts:71](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L71)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/api/index.ts:71
 
 > `readonly` **input\_amount**: `string`
 
-Defined in: src/types/api/index.ts:66
+Defined in: [src/types/api/index.ts:66](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L66)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/api/index.ts:66
 
 > `readonly` **input\_token**: `string`
 
-Defined in: src/types/api/index.ts:64
+Defined in: [src/types/api/index.ts:64](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L64)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/api/index.ts:64
 
 > `readonly` **min\_output\_amount**: `string`
 
-Defined in: src/types/api/index.ts:68
+Defined in: [src/types/api/index.ts:68](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L68)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/api/index.ts:68
 
 > `readonly` **output\_token**: `string`
 
-Defined in: src/types/api/index.ts:65
+Defined in: [src/types/api/index.ts:65](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L65)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/api/index.ts:65
 
 > `readonly` **protocol\_fee**: `string`
 
-Defined in: src/types/api/index.ts:70
+Defined in: [src/types/api/index.ts:70](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L70)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: src/types/api/index.ts:70
 
 > `readonly` **route**: readonly [`RawRouteLeg`](RawRouteLeg.md)[]
 
-Defined in: src/types/api/index.ts:69
+Defined in: [src/types/api/index.ts:69](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L69)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: src/types/api/index.ts:69
 
 > `readonly` **route\_params**: [`RawEip712Intent`](RawEip712Intent.md)
 
-Defined in: src/types/api/index.ts:72
+Defined in: [src/types/api/index.ts:72](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L72)
 
 ***
 
@@ -86,4 +86,4 @@ Defined in: src/types/api/index.ts:72
 
 > `readonly` **uuid**: `string`
 
-Defined in: src/types/api/index.ts:63
+Defined in: [src/types/api/index.ts:63](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L63)

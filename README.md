@@ -1,12 +1,19 @@
-# Sera Protocol TypeScript SDK
+# Sera Protocol TypeScript SDK (Community Edition)
 
-Sera Protocol is a decentralized stablecoin FX settlement layer featuring an on-chain Central Limit Order Book (CLOB). This SDK abstracts the complexity of EIP-712 cryptographic signature orchestration, decimal conversion, and network transport, reducing the effort needed to integrate programmatic stablecoin trading.
+Sera Protocol is a decentralized stablecoin FX settlement layer featuring an on-chain Central Limit Order Book (CLOB). This SDK simplifies stablecoin integration by providing complete type safety, automated credential authentication, EIP-712 cryptographic signing, and resilient transport pipelines. Developers can quickly integrate FX swaps, limit orders, and payments into browsers, backend Node.js, edge functions, or AI agents.
 
 [![NPM Version](https://img.shields.io/npm/v/@sera-protocol/sdk?color=blue)](https://www.npmjs.com/package/@sera-protocol/sdk)
 [![License](https://img.shields.io/npm/l/@sera-protocol/sdk)](./LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)](https://www.typescriptlang.org/)
 [![Tests](https://img.shields.io/badge/Tests-Passing-green)](#testing)
 [![Node](https://img.shields.io/badge/Node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
+
+---
+
+### Community Project Disclaimer
+
+> [!NOTE]
+> This repository is an independent, community-maintained SDK for Sera Protocol. It is not officially maintained or owned by the Sera Protocol team. The goal is to provide an official-quality developer experience for the community while remaining fully open to feedback, contributions, and future collaboration with the Sera team.
 
 ---
 
@@ -35,22 +42,32 @@ console.log(`Swap complete. Tx Hash: ${result.txHash}`);
 ---
 
 ## Table of Contents
-1. [Why use this SDK?](#why-use-this-sdk)
+1. [Why Sera SDK?](#why-sera-sdk)
 2. [Supported Runtimes](#supported-runtimes)
-3. [Installation](#installation)
-4. [Authentication & Wallet Adapters](#authentication--wallet-adapters)
-5. [Core Modules & Examples](#core-modules--examples)
-6. [Architecture](#architecture)
-7. [Error Handling & Debugging](#error-handling--debugging)
-8. [TypeScript Safety](#typescript-safety)
-9. [Contributing](#contributing)
-10. [License](#license)
+3. [Examples Index](#examples-index)
+4. [Installation](#installation)
+5. [Authentication & Wallet Adapters](#authentication--wallet-adapters)
+6. [Core Modules & Examples](#core-modules--examples)
+7. [Architecture](#architecture)
+8. [Error Handling & Debugging](#error-handling--debugging)
+9. [TypeScript Safety](#typescript-safety)
+10. [FAQ](#faq)
+11. [Contributing](#contributing)
+12. [License](#license)
 
 ---
 
-## Why use this SDK?
+## Why Sera SDK?
 
-Integrating directly with decentralized order books and routing systems via raw REST endpoints introduces substantial integration complexity. The Sera Protocol SDK abstracts these tasks into safe, high-level primitives.
+Integrating directly with decentralized order books and routing systems via raw REST endpoints introduces substantial integration complexity. This SDK abstracts these tasks into safe, high-level primitives:
+
+*   **Fully Typed API**: Strong TypeScript interfaces for all requests, responses, and events.
+*   **Automatic EIP-712 Signing**: Handles domain separator construction, hex-packing, and signature execution under the hood.
+*   **Browser & Node.js Support**: Compatible across web browsers, backend scripts, Next.js, and Edge environments.
+*   **Production-Ready Examples**: Built-in, fully runnable starter templates for key use cases.
+*   **Generated API Documentation**: Comprehensive auto-generated markdown docs synced directly with the source code.
+*   **Zero Runtime Dependencies**: Ultra-lightweight footprint utilizing native `fetch` and dynamic peer dependency resolution.
+*   **Modern TypeScript-First Design**: Branded types catch common mistakes at compile time rather than runtime.
 
 ### REST API vs. TypeScript SDK
 
@@ -74,6 +91,18 @@ The SDK utilizes standard ECMAScript modules (ESM) and standard global APIs (lik
 *   **Web Frameworks**: Next.js, React, Vue, Svelte, Vite.
 *   **Alternative Runtimes**: Bun, Deno.
 *   **Edge Computing**: Cloudflare Workers, Vercel Edge Functions.
+
+---
+
+## Examples Index
+
+We provide three complete, production-quality example applications inside the `examples/` directory:
+
+| Example | Description | Recommended Learning Order |
+| :--- | :--- | :--- |
+| **[`node-basic`](./examples/node-basic)** | Simple, runnable Node.js CLI script displaying client initialization, configs, and quote checks. | 1. Basic Onboarding |
+| **[`nextjs-payments`](./examples/nextjs-payments)** | Modern App Router application showcasing server-side SDK execution and status polling. | 2. Web Integration |
+| **[`ai-agent`](./examples/ai-agent)** | Flagship AI Agent natural language transaction simulator executing orders through semantic parsing. | 3. Advanced Orchestration |
 
 ---
 
@@ -321,6 +350,25 @@ const badAddress: Address = '0x123...';
 // Correct casting:
 const goodAddress: Address = toAddress('0x1234567890123456789012345678901234567890');
 ```
+
+---
+
+## FAQ
+
+### Is this an official SDK?
+No. This is a community-maintained TypeScript SDK developed to provide a high-quality, developer-first integration experience for the Sera Protocol.
+
+### Which runtimes are supported?
+The SDK runs in any environment supporting standard ESM modules and native `fetch` APIs. This includes Node.js (>=18), modern web browsers, Deno, Bun, Next.js, and edge workers (Cloudflare Workers, Vercel Edge).
+
+### Which wallet libraries are supported?
+Through the signer adapters interface, we support **Viem** wallet clients, **Ethers.js v6** signers, browser injected wallet extensions (like MetaMask or Rabby via `window.ethereum`), and raw private key hex strings.
+
+### Where should I start?
+For a quick test, we suggest cloning the repository and running the [`examples/node-basic`](./examples/node-basic) script. For web integration, explore the [`examples/nextjs-payments`](./examples/nextjs-payments) App Router project.
+
+### How can I contribute?
+Please review our [CONTRIBUTING.md](./CONTRIBUTING.md) guide for details on development setups, vitest commands, and pull request checklist validations.
 
 ---
 

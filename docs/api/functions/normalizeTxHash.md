@@ -8,7 +8,7 @@
 
 > **normalizeTxHash**(`hash`): [`TransactionHash`](../type-aliases/TransactionHash.md)
 
-Defined in: src/utils/signature.ts:43
+Defined in: [src/utils/signature.ts:43](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/signature.ts#L43)
 
 Normalizes a transaction hash.
 

@@ -6,7 +6,7 @@
 
 # Interface: RawExecuteSwapResponse
 
-Defined in: src/types/api/index.ts:81
+Defined in: [src/types/api/index.ts:81](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L81)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:81
 
 > `readonly` **input\_amount\_consumed**: `string`
 
-Defined in: src/types/api/index.ts:83
+Defined in: [src/types/api/index.ts:83](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L83)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:83
 
 > `readonly` **output\_amount\_received**: `string`
 
-Defined in: src/types/api/index.ts:84
+Defined in: [src/types/api/index.ts:84](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L84)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/api/index.ts:84
 
 > `readonly` **status**: `string`
 
-Defined in: src/types/api/index.ts:85
+Defined in: [src/types/api/index.ts:85](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L85)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: src/types/api/index.ts:85
 
 > `readonly` **tx\_hash**: `string`
 
-Defined in: src/types/api/index.ts:82
+Defined in: [src/types/api/index.ts:82](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L82)

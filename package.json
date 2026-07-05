@@ -20,15 +20,18 @@
     "node": ">=18.0.0"
   },
   "sideEffects": false,
-  "author": "Sera Protocol Team <dev@sera.cx>",
+  "author": "Pulkit Lather <pulkitlather.work@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/sera-protocol/sdk#readme",
+  "homepage": "https://github.com/pulkit136/sera-sdk",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sera-protocol/sdk.git"
+    "url": "git+https://github.com/pulkit136/sera-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/sera-protocol/sdk/issues"
+    "url": "https://github.com/pulkit136/sera-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "sera",

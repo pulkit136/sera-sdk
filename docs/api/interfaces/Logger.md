@@ -6,7 +6,7 @@
 
 # Interface: Logger
 
-Defined in: src/utils/logger.ts:4
+Defined in: [src/utils/logger.ts:4](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L4)
 
 Interface representing a pluggable logging engine for the SDK.
 
@@ -16,7 +16,7 @@ Interface representing a pluggable logging engine for the SDK.
 
 > **debug**(`message`, ...`args`): `void`
 
-Defined in: src/utils/logger.ts:5
+Defined in: [src/utils/logger.ts:5](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L5)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: src/utils/logger.ts:5
 
 > **error**(`message`, ...`args`): `void`
 
-Defined in: src/utils/logger.ts:8
+Defined in: [src/utils/logger.ts:8](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L8)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: src/utils/logger.ts:8
 
 > **info**(`message`, ...`args`): `void`
 
-Defined in: src/utils/logger.ts:6
+Defined in: [src/utils/logger.ts:6](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L6)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: src/utils/logger.ts:6
 
 > **warn**(`message`, ...`args`): `void`
 
-Defined in: src/utils/logger.ts:7
+Defined in: [src/utils/logger.ts:7](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L7)
 
 #### Parameters
 

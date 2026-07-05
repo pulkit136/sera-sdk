@@ -6,7 +6,7 @@
 
 # Class: HttpClient
 
-Defined in: src/http/client.ts:9
+Defined in: [src/http/client.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/client.ts#L9)
 
 Production-grade HTTP client wrapper around native fetch.
 Acts as the single source of truth for all SDK HTTP communication.
@@ -17,7 +17,7 @@ Acts as the single source of truth for all SDK HTTP communication.
 
 > **new HttpClient**(`context`): `HttpClient`
 
-Defined in: src/http/client.ts:12
+Defined in: [src/http/client.ts:12](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/client.ts#L12)
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Defined in: src/http/client.ts:12
 
 > **delete**\<`TResponse`\>(`path`, `options?`): `Promise`\<`TResponse`\>
 
-Defined in: src/http/client.ts:62
+Defined in: [src/http/client.ts:62](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/client.ts#L62)
 
 Send a DELETE request.
 
@@ -65,7 +65,7 @@ Send a DELETE request.
 
 > **get**\<`TResponse`\>(`path`, `options?`): `Promise`\<`TResponse`\>
 
-Defined in: src/http/client.ts:19
+Defined in: [src/http/client.ts:19](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/client.ts#L19)
 
 Send a GET request.
 
@@ -95,7 +95,7 @@ Send a GET request.
 
 > **patch**\<`TResponse`\>(`path`, `body?`, `options?`): `Promise`\<`TResponse`\>
 
-Defined in: src/http/client.ts:51
+Defined in: [src/http/client.ts:51](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/client.ts#L51)
 
 Send a PATCH request.
 
@@ -129,7 +129,7 @@ Send a PATCH request.
 
 > **post**\<`TResponse`\>(`path`, `body?`, `options?`): `Promise`\<`TResponse`\>
 
-Defined in: src/http/client.ts:29
+Defined in: [src/http/client.ts:29](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/client.ts#L29)
 
 Send a POST request.
 
@@ -163,7 +163,7 @@ Send a POST request.
 
 > **put**\<`TResponse`\>(`path`, `body?`, `options?`): `Promise`\<`TResponse`\>
 
-Defined in: src/http/client.ts:40
+Defined in: [src/http/client.ts:40](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/client.ts#L40)
 
 Send a PUT request.
 
@@ -197,7 +197,7 @@ Send a PUT request.
 
 > **request**\<`TResponse`\>(`options`): `Promise`\<`TResponse`\>
 
-Defined in: src/http/client.ts:72
+Defined in: [src/http/client.ts:72](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/client.ts#L72)
 
 Core request runner that handles timeouts, retries, headers, and middleware hooks.
 

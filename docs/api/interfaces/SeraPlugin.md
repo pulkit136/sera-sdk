@@ -6,7 +6,7 @@
 
 # Interface: SeraPlugin
 
-Defined in: src/plugins/base.ts:18
+Defined in: [src/plugins/base.ts:18](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/plugins/base.ts#L18)
 
 Interface that all Sera Protocol SDK Plugins must implement.
 
@@ -16,7 +16,7 @@ Interface that all Sera Protocol SDK Plugins must implement.
 
 > `readonly` **name**: `string`
 
-Defined in: src/plugins/base.ts:19
+Defined in: [src/plugins/base.ts:19](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/plugins/base.ts#L19)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/plugins/base.ts:19
 
 > `readonly` **version**: `string`
 
-Defined in: src/plugins/base.ts:20
+Defined in: [src/plugins/base.ts:20](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/plugins/base.ts#L20)
 
 ## Methods
 
@@ -32,7 +32,7 @@ Defined in: src/plugins/base.ts:20
 
 > **setup**(`context`): `void` \| `Promise`\<`void`\>
 
-Defined in: src/plugins/base.ts:21
+Defined in: [src/plugins/base.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/plugins/base.ts#L21)
 
 #### Parameters
 

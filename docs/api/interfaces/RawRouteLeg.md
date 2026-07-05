@@ -6,7 +6,7 @@
 
 # Interface: RawRouteLeg
 
-Defined in: src/types/api/index.ts:55
+Defined in: [src/types/api/index.ts:55](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L55)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:55
 
 > `readonly` **input\_token**: `string`
 
-Defined in: src/types/api/index.ts:56
+Defined in: [src/types/api/index.ts:56](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L56)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:56
 
 > `readonly` **output\_token**: `string`
 
-Defined in: src/types/api/index.ts:57
+Defined in: [src/types/api/index.ts:57](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L57)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/api/index.ts:57
 
 > `readonly` **pool\_address**: `string`
 
-Defined in: src/types/api/index.ts:58
+Defined in: [src/types/api/index.ts:58](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L58)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: src/types/api/index.ts:58
 
 > `readonly` **pool\_fee\_bps**: `number`
 
-Defined in: src/types/api/index.ts:59
+Defined in: [src/types/api/index.ts:59](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L59)

@@ -6,7 +6,7 @@
 
 # Enumeration: ErrorCode
 
-Defined in: src/types/enums/index.ts:60
+Defined in: [src/types/enums/index.ts:60](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L60)
 
 Standard SDK and API Error Codes
 
@@ -16,7 +16,7 @@ Standard SDK and API Error Codes
 
 > **AUTHENTICATION\_ERROR**: `"AUTHENTICATION_ERROR"`
 
-Defined in: src/types/enums/index.ts:61
+Defined in: [src/types/enums/index.ts:61](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L61)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/types/enums/index.ts:61
 
 > **INSUFFICIENT\_COLLATERAL**: `"INSUFFICIENT_COLLATERAL"`
 
-Defined in: src/types/enums/index.ts:67
+Defined in: [src/types/enums/index.ts:67](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L67)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: src/types/enums/index.ts:67
 
 > **INVALID\_SIGNATURE**: `"INVALID_SIGNATURE"`
 
-Defined in: src/types/enums/index.ts:70
+Defined in: [src/types/enums/index.ts:70](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L70)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: src/types/enums/index.ts:70
 
 > **NETWORK\_ERROR**: `"NETWORK_ERROR"`
 
-Defined in: src/types/enums/index.ts:64
+Defined in: [src/types/enums/index.ts:64](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L64)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: src/types/enums/index.ts:64
 
 > **QUOTE\_EXPIRED**: `"QUOTE_EXPIRED"`
 
-Defined in: src/types/enums/index.ts:69
+Defined in: [src/types/enums/index.ts:69](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L69)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: src/types/enums/index.ts:69
 
 > **RATE\_LIMIT\_ERROR**: `"RATE_LIMIT_ERROR"`
 
-Defined in: src/types/enums/index.ts:63
+Defined in: [src/types/enums/index.ts:63](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L63)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: src/types/enums/index.ts:63
 
 > **SERVER\_ERROR**: `"SERVER_ERROR"`
 
-Defined in: src/types/enums/index.ts:65
+Defined in: [src/types/enums/index.ts:65](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L65)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: src/types/enums/index.ts:65
 
 > **SLIPPAGE\_EXCEEDED**: `"SLIPPAGE_EXCEEDED"`
 
-Defined in: src/types/enums/index.ts:68
+Defined in: [src/types/enums/index.ts:68](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L68)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: src/types/enums/index.ts:68
 
 > **UNKNOWN\_ERROR**: `"UNKNOWN_ERROR"`
 
-Defined in: src/types/enums/index.ts:66
+Defined in: [src/types/enums/index.ts:66](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L66)
 
 ***
 
@@ -88,4 +88,4 @@ Defined in: src/types/enums/index.ts:66
 
 > **VALIDATION\_ERROR**: `"VALIDATION_ERROR"`
 
-Defined in: src/types/enums/index.ts:62
+Defined in: [src/types/enums/index.ts:62](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L62)

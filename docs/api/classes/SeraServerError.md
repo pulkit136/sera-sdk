@@ -6,7 +6,7 @@
 
 # Class: SeraServerError
 
-Defined in: src/errors/classes.ts:47
+Defined in: [src/errors/classes.ts:47](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/errors/classes.ts#L47)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/errors/classes.ts:47
 
 > **new SeraServerError**(`message`, `options?`): `SeraServerError`
 
-Defined in: src/errors/classes.ts:48
+Defined in: [src/errors/classes.ts:48](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/errors/classes.ts#L48)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: node\_modules/typescript/lib/lib.es2022.error.d.ts:26
 
 > `readonly` **code**: `string`
 
-Defined in: src/errors/classes.ts:4
+Defined in: [src/errors/classes.ts:4](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/errors/classes.ts#L4)
 
 #### Inherited from
 
@@ -102,7 +102,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` `optional` **originalError?**: `any`
 
-Defined in: src/errors/classes.ts:7
+Defined in: [src/errors/classes.ts:7](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/errors/classes.ts#L7)
 
 #### Inherited from
 
@@ -114,7 +114,7 @@ Defined in: src/errors/classes.ts:7
 
 > `readonly` `optional` **requestId?**: `string`
 
-Defined in: src/errors/classes.ts:5
+Defined in: [src/errors/classes.ts:5](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/errors/classes.ts#L5)
 
 #### Inherited from
 
@@ -138,7 +138,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 > `readonly` `optional` **statusCode?**: `number`
 
-Defined in: src/errors/classes.ts:6
+Defined in: [src/errors/classes.ts:6](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/errors/classes.ts#L6)
 
 #### Inherited from
 

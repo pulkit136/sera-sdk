@@ -6,7 +6,7 @@
 
 # Interface: PaymentEstimation
 
-Defined in: src/types/domain/index.ts:333
+Defined in: [src/types/domain/index.ts:333](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L333)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/domain/index.ts:333
 
 > `readonly` **estimatedFee**: `string`
 
-Defined in: src/types/domain/index.ts:334
+Defined in: [src/types/domain/index.ts:334](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L334)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/domain/index.ts:334
 
 > `readonly` **gasLimit**: `string`
 
-Defined in: src/types/domain/index.ts:335
+Defined in: [src/types/domain/index.ts:335](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L335)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/domain/index.ts:335
 
 > `readonly` **route**: readonly [`RouteLeg`](RouteLeg.md)[]
 
-Defined in: src/types/domain/index.ts:336
+Defined in: [src/types/domain/index.ts:336](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L336)

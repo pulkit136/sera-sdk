@@ -6,7 +6,7 @@
 
 # Interface: VaultTransactionParams
 
-Defined in: src/types/domain/index.ts:101
+Defined in: [src/types/domain/index.ts:101](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L101)
 
 Parameters to construct a Vault transaction (e.g. deposit or withdrawal).
 
@@ -16,7 +16,7 @@ Parameters to construct a Vault transaction (e.g. deposit or withdrawal).
 
 > `readonly` **data**: `string`
 
-Defined in: src/types/domain/index.ts:109
+Defined in: [src/types/domain/index.ts:109](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L109)
 
 Hex encoded calldata payload for execution.
 
@@ -26,7 +26,7 @@ Hex encoded calldata payload for execution.
 
 > `readonly` **gasLimit**: `string`
 
-Defined in: src/types/domain/index.ts:113
+Defined in: [src/types/domain/index.ts:113](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L113)
 
 Estimated gas limit required, in base units.
 
@@ -36,7 +36,7 @@ Estimated gas limit required, in base units.
 
 > `readonly` `optional` **maxFeePerGas?**: `string`
 
-Defined in: src/types/domain/index.ts:121
+Defined in: [src/types/domain/index.ts:121](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L121)
 
 Maximum fee per gas, in Wei base string.
 
@@ -46,7 +46,7 @@ Maximum fee per gas, in Wei base string.
 
 > `readonly` `optional` **maxPriorityFeePerGas?**: `string`
 
-Defined in: src/types/domain/index.ts:117
+Defined in: [src/types/domain/index.ts:117](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L117)
 
 Maximum priority fee per gas, in Wei base string.
 
@@ -56,6 +56,6 @@ Maximum priority fee per gas, in Wei base string.
 
 > `readonly` **to**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:105
+Defined in: [src/types/domain/index.ts:105](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L105)
 
 Destination address on-chain.

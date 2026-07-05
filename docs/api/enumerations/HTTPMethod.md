@@ -6,7 +6,7 @@
 
 # Enumeration: HTTPMethod
 
-Defined in: src/types/enums/index.ts:101
+Defined in: [src/types/enums/index.ts:101](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L101)
 
 Standard HTTP Request Methods
 
@@ -16,7 +16,7 @@ Standard HTTP Request Methods
 
 > **DELETE**: `"DELETE"`
 
-Defined in: src/types/enums/index.ts:106
+Defined in: [src/types/enums/index.ts:106](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L106)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/types/enums/index.ts:106
 
 > **GET**: `"GET"`
 
-Defined in: src/types/enums/index.ts:102
+Defined in: [src/types/enums/index.ts:102](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L102)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: src/types/enums/index.ts:102
 
 > **PATCH**: `"PATCH"`
 
-Defined in: src/types/enums/index.ts:105
+Defined in: [src/types/enums/index.ts:105](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L105)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: src/types/enums/index.ts:105
 
 > **POST**: `"POST"`
 
-Defined in: src/types/enums/index.ts:103
+Defined in: [src/types/enums/index.ts:103](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L103)
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: src/types/enums/index.ts:103
 
 > **PUT**: `"PUT"`
 
-Defined in: src/types/enums/index.ts:104
+Defined in: [src/types/enums/index.ts:104](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L104)

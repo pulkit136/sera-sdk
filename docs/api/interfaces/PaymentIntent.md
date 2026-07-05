@@ -6,7 +6,7 @@
 
 # Interface: PaymentIntent
 
-Defined in: src/types/domain/index.ts:303
+Defined in: [src/types/domain/index.ts:303](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L303)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/domain/index.ts:303
 
 > `readonly` **amount**: `string`
 
-Defined in: src/types/domain/index.ts:307
+Defined in: [src/types/domain/index.ts:307](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L307)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/domain/index.ts:307
 
 > `readonly` **asset**: `string`
 
-Defined in: src/types/domain/index.ts:306
+Defined in: [src/types/domain/index.ts:306](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L306)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/domain/index.ts:306
 
 > `readonly` **chainId**: `number`
 
-Defined in: src/types/domain/index.ts:311
+Defined in: [src/types/domain/index.ts:311](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L311)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/domain/index.ts:311
 
 > `readonly` **deadline**: `number`
 
-Defined in: src/types/domain/index.ts:313
+Defined in: [src/types/domain/index.ts:313](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L313)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/domain/index.ts:313
 
 > `readonly` **feeAmount**: `string`
 
-Defined in: src/types/domain/index.ts:308
+Defined in: [src/types/domain/index.ts:308](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L308)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/domain/index.ts:308
 
 > `readonly` **id**: `string`
 
-Defined in: src/types/domain/index.ts:304
+Defined in: [src/types/domain/index.ts:304](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L304)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/domain/index.ts:304
 
 > `readonly` `optional` **memo?**: `string`
 
-Defined in: src/types/domain/index.ts:309
+Defined in: [src/types/domain/index.ts:309](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L309)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: src/types/domain/index.ts:309
 
 > `readonly` **recipient**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:305
+Defined in: [src/types/domain/index.ts:305](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L305)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: src/types/domain/index.ts:305
 
 > `readonly` **uuid**: `string`
 
-Defined in: src/types/domain/index.ts:312
+Defined in: [src/types/domain/index.ts:312](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L312)
 
 ***
 
@@ -86,4 +86,4 @@ Defined in: src/types/domain/index.ts:312
 
 > `readonly` **verifyingContract**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:310
+Defined in: [src/types/domain/index.ts:310](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L310)

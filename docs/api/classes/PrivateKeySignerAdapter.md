@@ -6,7 +6,7 @@
 
 # Class: PrivateKeySignerAdapter
 
-Defined in: src/auth/adapters/private-key.ts:8
+Defined in: [src/auth/adapters/private-key.ts:8](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/adapters/private-key.ts#L8)
 
 Adapter that signs EIP-712 messages in-process using a private key.
 Dynamically resolves either 'ethers' or 'viem' peer dependencies.
@@ -21,7 +21,7 @@ Dynamically resolves either 'ethers' or 'viem' peer dependencies.
 
 > **new PrivateKeySignerAdapter**(`privateKey`): `PrivateKeySignerAdapter`
 
-Defined in: src/auth/adapters/private-key.ts:12
+Defined in: [src/auth/adapters/private-key.ts:12](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/adapters/private-key.ts#L12)
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: src/auth/adapters/private-key.ts:12
 
 > **getAddress**(): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: src/auth/adapters/private-key.ts:21
+Defined in: [src/auth/adapters/private-key.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/adapters/private-key.ts#L21)
 
 #### Returns
 
@@ -55,7 +55,7 @@ Defined in: src/auth/adapters/private-key.ts:21
 
 > **signTypedData**(`domain`, `types`, `value`): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: src/auth/adapters/private-key.ts:26
+Defined in: [src/auth/adapters/private-key.ts:26](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/adapters/private-key.ts#L26)
 
 #### Parameters
 

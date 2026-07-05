@@ -6,7 +6,7 @@
 
 # Interface: SeraConfig
 
-Defined in: src/types/domain/config.ts:14
+Defined in: [src/types/domain/config.ts:14](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L14)
 
 Options provided by the developer when instantiating the SDK.
 
@@ -16,7 +16,7 @@ Options provided by the developer when instantiating the SDK.
 
 > `optional` **apiKey?**: `string`
 
-Defined in: src/types/domain/config.ts:15
+Defined in: [src/types/domain/config.ts:15](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L15)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/types/domain/config.ts:15
 
 > `optional` **baseUrl?**: `string`
 
-Defined in: src/types/domain/config.ts:16
+Defined in: [src/types/domain/config.ts:16](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L16)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: src/types/domain/config.ts:16
 
 > `optional` **debug?**: `boolean`
 
-Defined in: src/types/domain/config.ts:20
+Defined in: [src/types/domain/config.ts:20](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L20)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: src/types/domain/config.ts:20
 
 > `optional` **environment?**: [`SeraEnvironmentName`](../type-aliases/SeraEnvironmentName.md)
 
-Defined in: src/types/domain/config.ts:17
+Defined in: [src/types/domain/config.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L17)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: src/types/domain/config.ts:17
 
 > `optional` **headers?**: `Record`\<`string`, `string`\>
 
-Defined in: src/types/domain/config.ts:25
+Defined in: [src/types/domain/config.ts:25](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L25)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: src/types/domain/config.ts:25
 
 > `optional` **logger?**: [`Logger`](Logger.md)
 
-Defined in: src/types/domain/config.ts:21
+Defined in: [src/types/domain/config.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L21)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: src/types/domain/config.ts:21
 
 > `optional` **maxRetries?**: `number`
 
-Defined in: src/types/domain/config.ts:19
+Defined in: [src/types/domain/config.ts:19](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L19)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: src/types/domain/config.ts:19
 
 > `optional` **middlewares?**: [`Middleware`](Middleware.md)[]
 
-Defined in: src/types/domain/config.ts:24
+Defined in: [src/types/domain/config.ts:24](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L24)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: src/types/domain/config.ts:24
 
 > `optional` **plugins?**: [`SeraPlugin`](SeraPlugin.md)[]
 
-Defined in: src/types/domain/config.ts:23
+Defined in: [src/types/domain/config.ts:23](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L23)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: src/types/domain/config.ts:23
 
 > `optional` **signer?**: [`ISeraSigner`](ISeraSigner.md)
 
-Defined in: src/types/domain/config.ts:22
+Defined in: [src/types/domain/config.ts:22](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L22)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: src/types/domain/config.ts:22
 
 > `optional` **timeout?**: `number`
 
-Defined in: src/types/domain/config.ts:18
+Defined in: [src/types/domain/config.ts:18](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L18)
 
 ***
 
@@ -104,4 +104,4 @@ Defined in: src/types/domain/config.ts:18
 
 > `optional` **userAgent?**: `string`
 
-Defined in: src/types/domain/config.ts:26
+Defined in: [src/types/domain/config.ts:26](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/config.ts#L26)

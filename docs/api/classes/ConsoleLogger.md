@@ -6,7 +6,7 @@
 
 # Class: ConsoleLogger
 
-Defined in: src/utils/logger.ts:14
+Defined in: [src/utils/logger.ts:14](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L14)
 
 Default logger that outputs formatted messages to console.
 
@@ -30,7 +30,7 @@ Default logger that outputs formatted messages to console.
 
 > **debug**(`message`, ...`args`): `void`
 
-Defined in: src/utils/logger.ts:17
+Defined in: [src/utils/logger.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L17)
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Defined in: src/utils/logger.ts:17
 
 > **error**(`message`, ...`args`): `void`
 
-Defined in: src/utils/logger.ts:29
+Defined in: [src/utils/logger.ts:29](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L29)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: src/utils/logger.ts:29
 
 > **info**(`message`, ...`args`): `void`
 
-Defined in: src/utils/logger.ts:21
+Defined in: [src/utils/logger.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L21)
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: src/utils/logger.ts:21
 
 > **warn**(`message`, ...`args`): `void`
 
-Defined in: src/utils/logger.ts:25
+Defined in: [src/utils/logger.ts:25](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/utils/logger.ts#L25)
 
 #### Parameters
 

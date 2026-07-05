@@ -6,7 +6,7 @@
 
 # Interface: HttpRequestOptions
 
-Defined in: src/http/types.ts:8
+Defined in: [src/http/types.ts:8](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L8)
 
 Options specified on individual request invocations.
 
@@ -16,7 +16,7 @@ Options specified on individual request invocations.
 
 > `optional` **body?**: `any`
 
-Defined in: src/http/types.ts:13
+Defined in: [src/http/types.ts:13](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L13)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/http/types.ts:13
 
 > `optional` **debug?**: `boolean`
 
-Defined in: src/http/types.ts:17
+Defined in: [src/http/types.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L17)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: src/http/types.ts:17
 
 > `optional` **headers?**: `Record`\<`string`, `string`\>
 
-Defined in: src/http/types.ts:11
+Defined in: [src/http/types.ts:11](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L11)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: src/http/types.ts:11
 
 > `optional` **maxRetries?**: `number`
 
-Defined in: src/http/types.ts:16
+Defined in: [src/http/types.ts:16](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L16)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: src/http/types.ts:16
 
 > **method**: [`HttpMethod`](../type-aliases/HttpMethod.md)
 
-Defined in: src/http/types.ts:10
+Defined in: [src/http/types.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L10)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: src/http/types.ts:10
 
 > **path**: `string`
 
-Defined in: src/http/types.ts:9
+Defined in: [src/http/types.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L9)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: src/http/types.ts:9
 
 > `optional` **query?**: `Record`\<`string`, `any`\>
 
-Defined in: src/http/types.ts:12
+Defined in: [src/http/types.ts:12](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L12)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: src/http/types.ts:12
 
 > `optional` **signal?**: `AbortSignal`
 
-Defined in: src/http/types.ts:14
+Defined in: [src/http/types.ts:14](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L14)
 
 ***
 
@@ -80,4 +80,4 @@ Defined in: src/http/types.ts:14
 
 > `optional` **timeout?**: `number`
 
-Defined in: src/http/types.ts:15
+Defined in: [src/http/types.ts:15](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L15)

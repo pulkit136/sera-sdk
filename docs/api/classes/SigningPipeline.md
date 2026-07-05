@@ -6,7 +6,7 @@
 
 # Class: SigningPipeline
 
-Defined in: src/auth/pipeline.ts:10
+Defined in: [src/auth/pipeline.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/pipeline.ts#L10)
 
 Orchestrator pipeline that executes signature routines.
 Validates authentication settings, builds typed payloads, triggers hooks, and resolves signatures.
@@ -17,7 +17,7 @@ Validates authentication settings, builds typed payloads, triggers hooks, and re
 
 > **new SigningPipeline**(`context`): `SigningPipeline`
 
-Defined in: src/auth/pipeline.ts:13
+Defined in: [src/auth/pipeline.ts:13](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/pipeline.ts#L13)
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Defined in: src/auth/pipeline.ts:13
 
 > **sign**(`domain`, `types`, `message`): `Promise`\<`string`\>
 
-Defined in: src/auth/pipeline.ts:20
+Defined in: [src/auth/pipeline.ts:20](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/pipeline.ts#L20)
 
 Generates a normalized EIP-712 signature for the given domain, types, and values.
 

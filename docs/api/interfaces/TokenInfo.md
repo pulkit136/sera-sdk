@@ -6,7 +6,7 @@
 
 # Interface: TokenInfo
 
-Defined in: src/types/domain/index.ts:9
+Defined in: [src/types/domain/index.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L9)
 
 Registry details for supported FX tokens.
 
@@ -16,7 +16,7 @@ Registry details for supported FX tokens.
 
 > `readonly` **contractAddress**: [`Address`](../type-aliases/Address.md)
 
-Defined in: src/types/domain/index.ts:22
+Defined in: [src/types/domain/index.ts:22](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L22)
 
 EIP-55 checksum Ethereum address of the ERC-20 contract.
 
@@ -32,7 +32,7 @@ EIP-55 checksum Ethereum address of the ERC-20 contract.
 
 > `readonly` **decimals**: `number`
 
-Defined in: src/types/domain/index.ts:17
+Defined in: [src/types/domain/index.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L17)
 
 Number of decimals used by the token contract (e.g. 6 for USDC, 18 for EURC).
 
@@ -42,7 +42,7 @@ Number of decimals used by the token contract (e.g. 6 for USDC, 18 for EURC).
 
 > `readonly` **minimumTradeAmount**: `string`
 
-Defined in: src/types/domain/index.ts:27
+Defined in: [src/types/domain/index.ts:27](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L27)
 
 Minimum transaction size allowed for trades in base-10 decimals.
 
@@ -58,6 +58,6 @@ Minimum transaction size allowed for trades in base-10 decimals.
 
 > `readonly` **symbol**: `string`
 
-Defined in: src/types/domain/index.ts:13
+Defined in: [src/types/domain/index.ts:13](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L13)
 
 Currency ticker symbol (e.g., 'USDC', 'EURC').

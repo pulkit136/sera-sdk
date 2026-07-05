@@ -6,7 +6,7 @@
 
 # Class: TypedEventEmitter
 
-Defined in: src/events/index.ts:8
+Defined in: [src/events/index.ts:8](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/index.ts#L8)
 
 A lightweight, dependency-free, strongly-typed event emitter.
 
@@ -26,7 +26,7 @@ A lightweight, dependency-free, strongly-typed event emitter.
 
 > **emit**\<`K`\>(`event`, `data`): `void`
 
-Defined in: src/events/index.ts:52
+Defined in: [src/events/index.ts:52](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/index.ts#L52)
 
 Emit an event, invoking all registered listeners with the provided payload.
 
@@ -56,7 +56,7 @@ Emit an event, invoking all registered listeners with the provided payload.
 
 > **off**\<`K`\>(`event`, `listener`): `this`
 
-Defined in: src/events/index.ts:37
+Defined in: [src/events/index.ts:37](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/index.ts#L37)
 
 Remove a listener from a specific event.
 
@@ -86,7 +86,7 @@ Remove a listener from a specific event.
 
 > **on**\<`K`\>(`event`, `listener`): `this`
 
-Defined in: src/events/index.ts:15
+Defined in: [src/events/index.ts:15](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/index.ts#L15)
 
 Register a persistent listener for a specific event.
 
@@ -116,7 +116,7 @@ Register a persistent listener for a specific event.
 
 > **once**\<`K`\>(`event`, `listener`): `this`
 
-Defined in: src/events/index.ts:26
+Defined in: [src/events/index.ts:26](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/index.ts#L26)
 
 Register a single-use listener for a specific event.
 
@@ -146,7 +146,7 @@ Register a single-use listener for a specific event.
 
 > **removeAllListeners**(): `void`
 
-Defined in: src/events/index.ts:86
+Defined in: [src/events/index.ts:86](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/index.ts#L86)
 
 Helper to clear all event listeners.
 

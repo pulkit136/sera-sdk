@@ -6,7 +6,7 @@
 
 # Interface: PaginationParams
 
-Defined in: src/types/shared/utilities.ts:37
+Defined in: [src/types/shared/utilities.ts:37](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/shared/utilities.ts#L37)
 
 Represents standard paginated queries.
 
@@ -16,7 +16,7 @@ Represents standard paginated queries.
 
 > `optional` **limit?**: `number`
 
-Defined in: src/types/shared/utilities.ts:38
+Defined in: [src/types/shared/utilities.ts:38](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/shared/utilities.ts#L38)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: src/types/shared/utilities.ts:38
 
 > `optional` **offset?**: `number`
 
-Defined in: src/types/shared/utilities.ts:39
+Defined in: [src/types/shared/utilities.ts:39](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/shared/utilities.ts#L39)

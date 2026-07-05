@@ -6,7 +6,7 @@
 
 # Interface: RawPaymentIntent
 
-Defined in: src/types/api/index.ts:142
+Defined in: [src/types/api/index.ts:142](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L142)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:142
 
 > `readonly` **amount**: `string`
 
-Defined in: src/types/api/index.ts:146
+Defined in: [src/types/api/index.ts:146](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L146)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:146
 
 > `readonly` **asset**: `string`
 
-Defined in: src/types/api/index.ts:145
+Defined in: [src/types/api/index.ts:145](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L145)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/api/index.ts:145
 
 > `readonly` **chain\_id**: `number`
 
-Defined in: src/types/api/index.ts:150
+Defined in: [src/types/api/index.ts:150](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L150)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/api/index.ts:150
 
 > `readonly` **deadline**: `number`
 
-Defined in: src/types/api/index.ts:152
+Defined in: [src/types/api/index.ts:152](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L152)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/api/index.ts:152
 
 > `readonly` **fee\_amount**: `string`
 
-Defined in: src/types/api/index.ts:147
+Defined in: [src/types/api/index.ts:147](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L147)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/api/index.ts:147
 
 > `readonly` **id**: `string`
 
-Defined in: src/types/api/index.ts:143
+Defined in: [src/types/api/index.ts:143](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L143)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/api/index.ts:143
 
 > `readonly` `optional` **memo?**: `string`
 
-Defined in: src/types/api/index.ts:148
+Defined in: [src/types/api/index.ts:148](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L148)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: src/types/api/index.ts:148
 
 > `readonly` **recipient**: `string`
 
-Defined in: src/types/api/index.ts:144
+Defined in: [src/types/api/index.ts:144](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L144)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: src/types/api/index.ts:144
 
 > `readonly` **uuid**: `string`
 
-Defined in: src/types/api/index.ts:151
+Defined in: [src/types/api/index.ts:151](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L151)
 
 ***
 
@@ -86,4 +86,4 @@ Defined in: src/types/api/index.ts:151
 
 > `readonly` **verifying\_contract**: `string`
 
-Defined in: src/types/api/index.ts:149
+Defined in: [src/types/api/index.ts:149](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L149)

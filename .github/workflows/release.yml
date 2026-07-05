@@ -39,6 +39,9 @@ jobs:
       - name: Compile TypeDoc API Reference
         run: npm run docs
 
+      - name: Verify Package Packing (npm pack)
+        run: npm pack --dry-run
+
       - name: Archive Production Bundles
         uses: actions/upload-artifact@v4
         with:

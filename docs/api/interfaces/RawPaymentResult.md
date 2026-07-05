@@ -6,7 +6,7 @@
 
 # Interface: RawPaymentResult
 
-Defined in: src/types/api/index.ts:155
+Defined in: [src/types/api/index.ts:155](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L155)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:155
 
 > `readonly` **amount**: `string`
 
-Defined in: src/types/api/index.ts:160
+Defined in: [src/types/api/index.ts:160](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L160)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:160
 
 > `readonly` **asset**: `string`
 
-Defined in: src/types/api/index.ts:159
+Defined in: [src/types/api/index.ts:159](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L159)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/api/index.ts:159
 
 > `readonly` **created\_at**: `number`
 
-Defined in: src/types/api/index.ts:162
+Defined in: [src/types/api/index.ts:162](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L162)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/api/index.ts:162
 
 > `readonly` **payment\_id**: `string`
 
-Defined in: src/types/api/index.ts:156
+Defined in: [src/types/api/index.ts:156](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L156)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/api/index.ts:156
 
 > `readonly` **recipient**: `string`
 
-Defined in: src/types/api/index.ts:158
+Defined in: [src/types/api/index.ts:158](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L158)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/api/index.ts:158
 
 > `readonly` **status**: `string`
 
-Defined in: src/types/api/index.ts:161
+Defined in: [src/types/api/index.ts:161](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L161)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: src/types/api/index.ts:161
 
 > `readonly` **tx\_hash**: `string`
 
-Defined in: src/types/api/index.ts:157
+Defined in: [src/types/api/index.ts:157](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L157)

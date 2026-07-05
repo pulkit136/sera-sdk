@@ -16,7 +16,7 @@
     "intent",
     "nlp"
   ],
-  "author": "Sera Protocol Team",
+  "author": "Pulkit Lather <pulkitlather.work@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@sera-protocol/sdk": "file:../../",

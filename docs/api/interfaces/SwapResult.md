@@ -6,7 +6,7 @@
 
 # Interface: SwapResult
 
-Defined in: src/types/domain/index.ts:249
+Defined in: [src/types/domain/index.ts:249](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L249)
 
 Results of a successful swap execution submission.
 
@@ -16,7 +16,7 @@ Results of a successful swap execution submission.
 
 > `readonly` **inputAmountConsumed**: `string`
 
-Defined in: src/types/domain/index.ts:257
+Defined in: [src/types/domain/index.ts:257](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L257)
 
 Actual input amount consumed.
 
@@ -26,7 +26,7 @@ Actual input amount consumed.
 
 > `readonly` **outputAmountReceived**: `string`
 
-Defined in: src/types/domain/index.ts:261
+Defined in: [src/types/domain/index.ts:261](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L261)
 
 Actual output amount received.
 
@@ -36,7 +36,7 @@ Actual output amount received.
 
 > `readonly` **status**: [`TransactionStatus`](../enumerations/TransactionStatus.md)
 
-Defined in: src/types/domain/index.ts:265
+Defined in: [src/types/domain/index.ts:265](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L265)
 
 Execution status.
 
@@ -46,6 +46,6 @@ Execution status.
 
 > `readonly` **txHash**: [`TransactionHash`](../type-aliases/TransactionHash.md)
 
-Defined in: src/types/domain/index.ts:253
+Defined in: [src/types/domain/index.ts:253](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/domain/index.ts#L253)
 
 Submitted transaction hash.

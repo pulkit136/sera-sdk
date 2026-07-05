@@ -6,7 +6,7 @@
 
 # Class: BalancesModule
 
-Defined in: src/modules/balances.ts:25
+Defined in: [src/modules/balances.ts:25](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/balances.ts#L25)
 
 Module responsible for fetching, caching, and helping developers inspect account balances.
 
@@ -20,7 +20,7 @@ Module responsible for fetching, caching, and helping developers inspect account
 
 > **new BalancesModule**(`context`): `BalancesModule`
 
-Defined in: src/modules/base.ts:10
+Defined in: [src/modules/base.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/base.ts#L10)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: src/modules/base.ts:10
 
 > **available**(`symbol`, `address?`): `Promise`\<`string`\>
 
-Defined in: src/modules/balances.ts:119
+Defined in: [src/modules/balances.ts:119](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/balances.ts#L119)
 
 Helper that retrieves available vault collateral for a symbol.
 
@@ -66,7 +66,7 @@ Helper that retrieves available vault collateral for a symbol.
 
 > **frozen**(`symbol`, `address?`): `Promise`\<`string`\>
 
-Defined in: src/modules/balances.ts:127
+Defined in: [src/modules/balances.ts:127](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/balances.ts#L127)
 
 Helper that retrieves frozen vault collateral for a symbol.
 
@@ -90,7 +90,7 @@ Helper that retrieves frozen vault collateral for a symbol.
 
 > **get**(`address?`, `options?`): `Promise`\<[`AccountBalances`](../interfaces/AccountBalances.md)\>
 
-Defined in: src/modules/balances.ts:32
+Defined in: [src/modules/balances.ts:32](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/balances.ts#L32)
 
 Fetches the account balances for a specific address or the configured signer.
 
@@ -114,7 +114,7 @@ Fetches the account balances for a specific address or the configured signer.
 
 > **refresh**(`address?`): `Promise`\<[`AccountBalances`](../interfaces/AccountBalances.md)\>
 
-Defined in: src/modules/balances.ts:96
+Defined in: [src/modules/balances.ts:96](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/balances.ts#L96)
 
 Bypasses cached values and retrieves fresh balance details.
 
@@ -134,7 +134,7 @@ Bypasses cached values and retrieves fresh balance details.
 
 > **total**(`symbol`, `address?`): `Promise`\<`string`\>
 
-Defined in: src/modules/balances.ts:135
+Defined in: [src/modules/balances.ts:135](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/balances.ts#L135)
 
 Helper that retrieves total vault collateral for a symbol.
 
@@ -158,7 +158,7 @@ Helper that retrieves total vault collateral for a symbol.
 
 > **vault**(`symbol`, `address?`): `Promise`\<[`BalanceDetails`](../interfaces/BalanceDetails.md)\>
 
-Defined in: src/modules/balances.ts:111
+Defined in: [src/modules/balances.ts:111](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/balances.ts#L111)
 
 Helper that retrieves the vault balance breakdown details for a token symbol.
 
@@ -182,7 +182,7 @@ Helper that retrieves the vault balance breakdown details for a token symbol.
 
 > **wallet**(`symbol`, `address?`): `Promise`\<`string`\>
 
-Defined in: src/modules/balances.ts:103
+Defined in: [src/modules/balances.ts:103](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/balances.ts#L103)
 
 Helper that retrieves the wallet balance for a specific token symbol.
 

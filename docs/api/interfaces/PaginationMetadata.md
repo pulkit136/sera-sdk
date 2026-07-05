@@ -6,7 +6,7 @@
 
 # Interface: PaginationMetadata
 
-Defined in: src/types/shared/utilities.ts:45
+Defined in: [src/types/shared/utilities.ts:45](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/shared/utilities.ts#L45)
 
 Metadata structure returned alongside paginated collections.
 
@@ -16,7 +16,7 @@ Metadata structure returned alongside paginated collections.
 
 > `readonly` **hasNextPage**: `boolean`
 
-Defined in: src/types/shared/utilities.ts:49
+Defined in: [src/types/shared/utilities.ts:49](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/shared/utilities.ts#L49)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/types/shared/utilities.ts:49
 
 > `readonly` **limit**: `number`
 
-Defined in: src/types/shared/utilities.ts:47
+Defined in: [src/types/shared/utilities.ts:47](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/shared/utilities.ts#L47)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: src/types/shared/utilities.ts:47
 
 > `readonly` **offset**: `number`
 
-Defined in: src/types/shared/utilities.ts:48
+Defined in: [src/types/shared/utilities.ts:48](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/shared/utilities.ts#L48)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: src/types/shared/utilities.ts:48
 
 > `readonly` **total**: `number`
 
-Defined in: src/types/shared/utilities.ts:46
+Defined in: [src/types/shared/utilities.ts:46](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/shared/utilities.ts#L46)

@@ -6,7 +6,7 @@
 
 # Interface: HookPayloads
 
-Defined in: src/hooks/types.ts:3
+Defined in: [src/hooks/types.ts:3](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L3)
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: src/hooks/types.ts:3
 
 > **afterBalanceLoad**: `object`
 
-Defined in: src/hooks/types.ts:20
+Defined in: [src/hooks/types.ts:20](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L20)
 
 #### balances
 
@@ -30,7 +30,7 @@ Defined in: src/hooks/types.ts:20
 
 > **afterOrder**: `object`
 
-Defined in: src/hooks/types.ts:14
+Defined in: [src/hooks/types.ts:14](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L14)
 
 #### durationMs
 
@@ -54,7 +54,7 @@ Defined in: src/hooks/types.ts:14
 
 > **afterOrderCancel**: `object`
 
-Defined in: src/hooks/types.ts:18
+Defined in: [src/hooks/types.ts:18](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L18)
 
 #### orderId
 
@@ -70,7 +70,7 @@ Defined in: src/hooks/types.ts:18
 
 > **afterOrderCreate**: `object`
 
-Defined in: src/hooks/types.ts:16
+Defined in: [src/hooks/types.ts:16](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L16)
 
 #### order
 
@@ -82,7 +82,7 @@ Defined in: src/hooks/types.ts:16
 
 > **afterPayment**: `object`
 
-Defined in: src/hooks/types.ts:24
+Defined in: [src/hooks/types.ts:24](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L24)
 
 #### paymentId
 
@@ -98,7 +98,7 @@ Defined in: src/hooks/types.ts:24
 
 > **afterPaymentSign**: `object`
 
-Defined in: src/hooks/types.ts:26
+Defined in: [src/hooks/types.ts:26](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L26)
 
 #### intent
 
@@ -114,7 +114,7 @@ Defined in: src/hooks/types.ts:26
 
 > **afterQuote**: `object`
 
-Defined in: src/hooks/types.ts:12
+Defined in: [src/hooks/types.ts:12](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L12)
 
 #### quote
 
@@ -126,7 +126,7 @@ Defined in: src/hooks/types.ts:12
 
 > **afterRequest**: `object`
 
-Defined in: src/hooks/types.ts:6
+Defined in: [src/hooks/types.ts:6](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L6)
 
 #### durationMs
 
@@ -154,7 +154,7 @@ Defined in: src/hooks/types.ts:6
 
 > **afterSign**: `object`
 
-Defined in: src/hooks/types.ts:8
+Defined in: [src/hooks/types.ts:8](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L8)
 
 #### domain
 
@@ -170,7 +170,7 @@ Defined in: src/hooks/types.ts:8
 
 > **afterSwap**: `object`
 
-Defined in: src/hooks/types.ts:10
+Defined in: [src/hooks/types.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L10)
 
 #### status
 
@@ -186,7 +186,7 @@ Defined in: src/hooks/types.ts:10
 
 > **afterSystemRequest**: `object`
 
-Defined in: src/hooks/types.ts:22
+Defined in: [src/hooks/types.ts:22](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L22)
 
 #### durationMs
 
@@ -202,7 +202,7 @@ Defined in: src/hooks/types.ts:22
 
 > **afterVirtualLiquidity**: `object`
 
-Defined in: src/hooks/types.ts:28
+Defined in: [src/hooks/types.ts:28](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L28)
 
 #### action
 
@@ -218,7 +218,7 @@ Defined in: src/hooks/types.ts:28
 
 > **afterVirtualLiquiditySign**: `object`
 
-Defined in: src/hooks/types.ts:30
+Defined in: [src/hooks/types.ts:30](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L30)
 
 #### intent
 
@@ -234,7 +234,7 @@ Defined in: src/hooks/types.ts:30
 
 > **beforeBalanceLoad**: `object`
 
-Defined in: src/hooks/types.ts:19
+Defined in: [src/hooks/types.ts:19](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L19)
 
 #### address?
 
@@ -246,7 +246,7 @@ Defined in: src/hooks/types.ts:19
 
 > **beforeOrder**: `object`
 
-Defined in: src/hooks/types.ts:13
+Defined in: [src/hooks/types.ts:13](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L13)
 
 #### body?
 
@@ -266,7 +266,7 @@ Defined in: src/hooks/types.ts:13
 
 > **beforeOrderCancel**: `object`
 
-Defined in: src/hooks/types.ts:17
+Defined in: [src/hooks/types.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L17)
 
 #### orderId
 
@@ -278,7 +278,7 @@ Defined in: src/hooks/types.ts:17
 
 > **beforeOrderCreate**: `object`
 
-Defined in: src/hooks/types.ts:15
+Defined in: [src/hooks/types.ts:15](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L15)
 
 #### amount
 
@@ -302,7 +302,7 @@ Defined in: src/hooks/types.ts:15
 
 > **beforePayment**: `object`
 
-Defined in: src/hooks/types.ts:23
+Defined in: [src/hooks/types.ts:23](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L23)
 
 #### amount
 
@@ -326,7 +326,7 @@ Defined in: src/hooks/types.ts:23
 
 > **beforePaymentSign**: `object`
 
-Defined in: src/hooks/types.ts:25
+Defined in: [src/hooks/types.ts:25](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L25)
 
 #### intent
 
@@ -338,7 +338,7 @@ Defined in: src/hooks/types.ts:25
 
 > **beforeQuote**: `object`
 
-Defined in: src/hooks/types.ts:11
+Defined in: [src/hooks/types.ts:11](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L11)
 
 #### amount
 
@@ -358,7 +358,7 @@ Defined in: src/hooks/types.ts:11
 
 > **beforeRequest**: `object`
 
-Defined in: src/hooks/types.ts:5
+Defined in: [src/hooks/types.ts:5](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L5)
 
 #### body?
 
@@ -382,7 +382,7 @@ Defined in: src/hooks/types.ts:5
 
 > **beforeSign**: `object`
 
-Defined in: src/hooks/types.ts:7
+Defined in: [src/hooks/types.ts:7](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L7)
 
 #### domain
 
@@ -402,7 +402,7 @@ Defined in: src/hooks/types.ts:7
 
 > **beforeSwap**: `object`
 
-Defined in: src/hooks/types.ts:9
+Defined in: [src/hooks/types.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L9)
 
 #### amount
 
@@ -430,7 +430,7 @@ Defined in: src/hooks/types.ts:9
 
 > **beforeSystemRequest**: `object`
 
-Defined in: src/hooks/types.ts:21
+Defined in: [src/hooks/types.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L21)
 
 #### type
 
@@ -442,7 +442,7 @@ Defined in: src/hooks/types.ts:21
 
 > **beforeVirtualLiquidity**: `object`
 
-Defined in: src/hooks/types.ts:27
+Defined in: [src/hooks/types.ts:27](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L27)
 
 #### action
 
@@ -458,7 +458,7 @@ Defined in: src/hooks/types.ts:27
 
 > **beforeVirtualLiquiditySign**: `object`
 
-Defined in: src/hooks/types.ts:29
+Defined in: [src/hooks/types.ts:29](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L29)
 
 #### intent
 
@@ -470,7 +470,7 @@ Defined in: src/hooks/types.ts:29
 
 > **client:init**: `object`
 
-Defined in: src/hooks/types.ts:4
+Defined in: [src/hooks/types.ts:4](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/types.ts#L4)
 
 #### config
 

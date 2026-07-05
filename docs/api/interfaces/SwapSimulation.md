@@ -6,7 +6,7 @@
 
 # Interface: SwapSimulation
 
-Defined in: src/events/types.ts:3
+Defined in: [src/events/types.ts:3](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/events/types.ts:3
 
 > `readonly` **expectedOutputAmount**: `string`
 
-Defined in: src/events/types.ts:4
+Defined in: [src/events/types.ts:4](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L4)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/events/types.ts:4
 
 > `readonly` **priceImpactBps**: `number`
 
-Defined in: src/events/types.ts:6
+Defined in: [src/events/types.ts:6](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L6)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/events/types.ts:6
 
 > `readonly` **protocolFee**: `string`
 
-Defined in: src/events/types.ts:5
+Defined in: [src/events/types.ts:5](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L5)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/events/types.ts:5
 
 > `readonly` **route**: readonly `any`[]
 
-Defined in: src/events/types.ts:7
+Defined in: [src/events/types.ts:7](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L7)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: src/events/types.ts:7
 
 > `readonly` **warnings**: readonly `string`[]
 
-Defined in: src/events/types.ts:8
+Defined in: [src/events/types.ts:8](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/events/types.ts#L8)

@@ -6,7 +6,7 @@
 
 # Interface: RawExecuteSwapRequest
 
-Defined in: src/types/api/index.ts:75
+Defined in: [src/types/api/index.ts:75](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L75)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:75
 
 > `readonly` **quote\_id**: `string`
 
-Defined in: src/types/api/index.ts:76
+Defined in: [src/types/api/index.ts:76](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L76)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:76
 
 > `readonly` **route\_params**: [`RawEip712Intent`](RawEip712Intent.md)
 
-Defined in: src/types/api/index.ts:78
+Defined in: [src/types/api/index.ts:78](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L78)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/api/index.ts:78
 
 > `readonly` **signature**: `string`
 
-Defined in: src/types/api/index.ts:77
+Defined in: [src/types/api/index.ts:77](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L77)

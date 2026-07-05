@@ -6,7 +6,7 @@
 
 # Class: SeraClient
 
-Defined in: src/client.ts:16
+Defined in: [src/client.ts:16](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L16)
 
 The central orchestration class for the Sera Protocol SDK.
 Holds immutable config, lifecycle hook registers, typed event pipelines, and module access.
@@ -17,7 +17,7 @@ Holds immutable config, lifecycle hook registers, typed event pipelines, and mod
 
 > **new SeraClient**(`options?`): `SeraClient`
 
-Defined in: src/client.ts:30
+Defined in: [src/client.ts:30](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L30)
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Defined in: src/client.ts:30
 
 > `readonly` **auth**: [`AuthEngine`](AuthEngine.md)
 
-Defined in: src/client.ts:18
+Defined in: [src/client.ts:18](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L18)
 
 ***
 
@@ -43,7 +43,7 @@ Defined in: src/client.ts:18
 
 > `readonly` **config**: [`SdkConfig`](../interfaces/SdkConfig.md)
 
-Defined in: src/client.ts:17
+Defined in: [src/client.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L17)
 
 ***
 
@@ -51,7 +51,7 @@ Defined in: src/client.ts:17
 
 > `readonly` **events**: [`TypedEventEmitter`](TypedEventEmitter.md)
 
-Defined in: src/client.ts:21
+Defined in: [src/client.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L21)
 
 ***
 
@@ -59,7 +59,7 @@ Defined in: src/client.ts:21
 
 > `readonly` **hooks**: [`HookRegistry`](HookRegistry.md)
 
-Defined in: src/client.ts:20
+Defined in: [src/client.ts:20](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L20)
 
 ***
 
@@ -67,7 +67,7 @@ Defined in: src/client.ts:20
 
 > `readonly` **httpClient**: [`HttpClient`](HttpClient.md)
 
-Defined in: src/client.ts:19
+Defined in: [src/client.ts:19](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L19)
 
 ## Accessors
 
@@ -77,7 +77,7 @@ Defined in: src/client.ts:19
 
 > **get** **balances**(): [`BalancesModule`](BalancesModule.md)
 
-Defined in: src/client.ts:134
+Defined in: [src/client.ts:134](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L134)
 
 ##### Returns
 
@@ -91,7 +91,7 @@ Defined in: src/client.ts:134
 
 > **get** **context**(): [`SdkContext`](../interfaces/SdkContext.md)
 
-Defined in: src/client.ts:82
+Defined in: [src/client.ts:82](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L82)
 
 Returns the shared dependency injection context for downstream modules.
 
@@ -107,7 +107,7 @@ Returns the shared dependency injection context for downstream modules.
 
 > **get** **orders**(): [`OrdersModule`](OrdersModule.md)
 
-Defined in: src/client.ts:127
+Defined in: [src/client.ts:127](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L127)
 
 ##### Returns
 
@@ -121,7 +121,7 @@ Defined in: src/client.ts:127
 
 > **get** **payments**(): [`PaymentsModule`](PaymentsModule.md)
 
-Defined in: src/client.ts:148
+Defined in: [src/client.ts:148](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L148)
 
 ##### Returns
 
@@ -135,7 +135,7 @@ Defined in: src/client.ts:148
 
 > **get** **swap**(): [`SwapModule`](SwapModule.md)
 
-Defined in: src/client.ts:120
+Defined in: [src/client.ts:120](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L120)
 
 ##### Returns
 
@@ -149,7 +149,7 @@ Defined in: src/client.ts:120
 
 > **get** **system**(): [`SystemModule`](SystemModule.md)
 
-Defined in: src/client.ts:141
+Defined in: [src/client.ts:141](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L141)
 
 ##### Returns
 
@@ -163,7 +163,7 @@ Defined in: src/client.ts:141
 
 > **get** **virtualLiquidity**(): [`VirtualLiquidityModule`](VirtualLiquidityModule.md)
 
-Defined in: src/client.ts:155
+Defined in: [src/client.ts:155](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L155)
 
 ##### Returns
 
@@ -175,7 +175,7 @@ Defined in: src/client.ts:155
 
 > **use**(`plugin`): `this`
 
-Defined in: src/client.ts:96
+Defined in: [src/client.ts:96](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/client.ts#L96)
 
 Register and initialize a new plugin into the SDK.
 

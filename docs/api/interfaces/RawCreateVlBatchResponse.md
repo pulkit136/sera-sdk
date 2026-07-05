@@ -6,7 +6,7 @@
 
 # Interface: RawCreateVlBatchResponse
 
-Defined in: src/types/api/index.ts:123
+Defined in: [src/types/api/index.ts:123](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L123)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:123
 
 > `readonly` **active\_orders**: readonly `string`[]
 
-Defined in: src/types/api/index.ts:126
+Defined in: [src/types/api/index.ts:126](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L126)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:126
 
 > `readonly` **batch\_id**: `string`
 
-Defined in: src/types/api/index.ts:124
+Defined in: [src/types/api/index.ts:124](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L124)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/api/index.ts:124
 
 > `readonly` **status**: `string`
 
-Defined in: src/types/api/index.ts:125
+Defined in: [src/types/api/index.ts:125](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L125)

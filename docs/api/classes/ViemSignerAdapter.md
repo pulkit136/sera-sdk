@@ -6,7 +6,7 @@
 
 # Class: ViemSignerAdapter
 
-Defined in: src/auth/adapters/viem.ts:6
+Defined in: [src/auth/adapters/viem.ts:6](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/adapters/viem.ts#L6)
 
 Adapter that wraps a Viem WalletClient and maps it to the universal ISeraSigner interface.
 
@@ -20,7 +20,7 @@ Adapter that wraps a Viem WalletClient and maps it to the universal ISeraSigner 
 
 > **new ViemSignerAdapter**(`walletClient`): `ViemSignerAdapter`
 
-Defined in: src/auth/adapters/viem.ts:9
+Defined in: [src/auth/adapters/viem.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/adapters/viem.ts#L9)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: src/auth/adapters/viem.ts:9
 
 > **getAddress**(): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: src/auth/adapters/viem.ts:16
+Defined in: [src/auth/adapters/viem.ts:16](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/adapters/viem.ts#L16)
 
 #### Returns
 
@@ -54,7 +54,7 @@ Defined in: src/auth/adapters/viem.ts:16
 
 > **signTypedData**(`domain`, `types`, `value`): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: src/auth/adapters/viem.ts:21
+Defined in: [src/auth/adapters/viem.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/adapters/viem.ts#L21)
 
 #### Parameters
 

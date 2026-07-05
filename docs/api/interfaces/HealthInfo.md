@@ -6,7 +6,7 @@
 
 # Interface: HealthInfo
 
-Defined in: src/modules/system.ts:7
+Defined in: [src/modules/system.ts:7](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L7)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/modules/system.ts:7
 
 > `readonly` **executorStatus**: `string`
 
-Defined in: src/modules/system.ts:11
+Defined in: [src/modules/system.ts:11](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L11)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/modules/system.ts:11
 
 > `readonly` **signatureReady**: `boolean`
 
-Defined in: src/modules/system.ts:12
+Defined in: [src/modules/system.ts:12](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L12)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/modules/system.ts:12
 
 > `readonly` **status**: `string`
 
-Defined in: src/modules/system.ts:8
+Defined in: [src/modules/system.ts:8](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L8)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/modules/system.ts:8
 
 > `readonly` **timestamp**: `string`
 
-Defined in: src/modules/system.ts:10
+Defined in: [src/modules/system.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L10)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: src/modules/system.ts:10
 
 > `readonly` **version**: `string`
 
-Defined in: src/modules/system.ts:9
+Defined in: [src/modules/system.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/modules/system.ts#L9)

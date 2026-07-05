@@ -6,7 +6,7 @@
 
 # Interface: RawHealthResponse
 
-Defined in: src/types/api/index.ts:6
+Defined in: [src/types/api/index.ts:6](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L6)
 
 Raw API payloads mapping exactly to the Sera Protocol REST v1 endpoints.
 These schemas use snake_case properties, mimicking server JSON formatting.
@@ -17,7 +17,7 @@ These schemas use snake_case properties, mimicking server JSON formatting.
 
 > `readonly` **executor\_status**: `string`
 
-Defined in: src/types/api/index.ts:10
+Defined in: [src/types/api/index.ts:10](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L10)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: src/types/api/index.ts:10
 
 > `readonly` **signature\_ready**: `boolean`
 
-Defined in: src/types/api/index.ts:11
+Defined in: [src/types/api/index.ts:11](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L11)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: src/types/api/index.ts:11
 
 > `readonly` **status**: `string`
 
-Defined in: src/types/api/index.ts:7
+Defined in: [src/types/api/index.ts:7](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L7)
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: src/types/api/index.ts:7
 
 > `readonly` **timestamp**: `string`
 
-Defined in: src/types/api/index.ts:9
+Defined in: [src/types/api/index.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L9)
 
 ***
 
@@ -49,4 +49,4 @@ Defined in: src/types/api/index.ts:9
 
 > `readonly` **version**: `string`
 
-Defined in: src/types/api/index.ts:8
+Defined in: [src/types/api/index.ts:8](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L8)

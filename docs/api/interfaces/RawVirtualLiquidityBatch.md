@@ -6,7 +6,7 @@
 
 # Interface: RawVirtualLiquidityBatch
 
-Defined in: src/types/api/index.ts:178
+Defined in: [src/types/api/index.ts:178](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L178)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:178
 
 > `readonly` **batch\_id**: `string`
 
-Defined in: src/types/api/index.ts:179
+Defined in: [src/types/api/index.ts:179](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L179)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:179
 
 > `readonly` **orders**: readonly [`RawOrder`](RawOrder.md)[]
 
-Defined in: src/types/api/index.ts:181
+Defined in: [src/types/api/index.ts:181](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L181)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/api/index.ts:181
 
 > `readonly` **shared\_budget**: `string`
 
-Defined in: src/types/api/index.ts:180
+Defined in: [src/types/api/index.ts:180](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L180)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: src/types/api/index.ts:180
 
 > `readonly` **status**: `string`
 
-Defined in: src/types/api/index.ts:182
+Defined in: [src/types/api/index.ts:182](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L182)

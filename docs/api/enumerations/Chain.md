@@ -6,7 +6,7 @@
 
 # Enumeration: Chain
 
-Defined in: src/types/enums/index.ts:14
+Defined in: [src/types/enums/index.ts:14](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L14)
 
 EVM Blockchains Supported by Sera
 
@@ -16,7 +16,7 @@ EVM Blockchains Supported by Sera
 
 > **ETHEREUM**: `1`
 
-Defined in: src/types/enums/index.ts:15
+Defined in: [src/types/enums/index.ts:15](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L15)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: src/types/enums/index.ts:15
 
 > **HARDHAT**: `31337`
 
-Defined in: src/types/enums/index.ts:17
+Defined in: [src/types/enums/index.ts:17](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L17)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: src/types/enums/index.ts:17
 
 > **SEPOLIA**: `11155111`
 
-Defined in: src/types/enums/index.ts:16
+Defined in: [src/types/enums/index.ts:16](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/enums/index.ts#L16)

@@ -6,7 +6,7 @@
 
 # Class: AuthEngine
 
-Defined in: src/auth/engine.ts:9
+Defined in: [src/auth/engine.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/engine.ts#L9)
 
 Authentication and credentials manager.
 Determines SDK features dynamically (e.g. read-only vs execution modes).
@@ -17,7 +17,7 @@ Determines SDK features dynamically (e.g. read-only vs execution modes).
 
 > **new AuthEngine**(`config`): `AuthEngine`
 
-Defined in: src/auth/engine.ts:13
+Defined in: [src/auth/engine.ts:13](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/engine.ts#L13)
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Defined in: src/auth/engine.ts:13
 
 > **getAuthHeaders**(): `Record`\<`string`, `string`\>
 
-Defined in: src/auth/engine.ts:47
+Defined in: [src/auth/engine.ts:47](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/engine.ts#L47)
 
 Compiles header credentials for API requests.
 
@@ -49,7 +49,7 @@ Compiles header credentials for API requests.
 
 > **getSigner**(): [`ISeraSigner`](../interfaces/ISeraSigner.md)
 
-Defined in: src/auth/engine.ts:35
+Defined in: [src/auth/engine.ts:35](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/engine.ts#L35)
 
 Resolves the current configured signer, or throws an error if missing.
 
@@ -63,7 +63,7 @@ Resolves the current configured signer, or throws an error if missing.
 
 > **hasApiKey**(): `boolean`
 
-Defined in: src/auth/engine.ts:21
+Defined in: [src/auth/engine.ts:21](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/engine.ts#L21)
 
 Returns true if an API key is configured.
 
@@ -77,7 +77,7 @@ Returns true if an API key is configured.
 
 > **hasSigner**(): `boolean`
 
-Defined in: src/auth/engine.ts:28
+Defined in: [src/auth/engine.ts:28](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/engine.ts#L28)
 
 Returns true if a web3 wallet signer adapter is configured.
 
@@ -91,7 +91,7 @@ Returns true if a web3 wallet signer adapter is configured.
 
 > **validateRequiredSigner**(): `void`
 
-Defined in: src/auth/engine.ts:59
+Defined in: [src/auth/engine.ts:59](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/auth/engine.ts#L59)
 
 Enforces that a valid signer is configured for mutating operations.
 

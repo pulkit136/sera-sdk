@@ -6,7 +6,7 @@
 
 # Interface: RawBalanceDetails
 
-Defined in: src/types/api/index.ts:29
+Defined in: [src/types/api/index.ts:29](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L29)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: src/types/api/index.ts:29
 
 > `readonly` **available**: `string`
 
-Defined in: src/types/api/index.ts:30
+Defined in: [src/types/api/index.ts:30](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L30)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/api/index.ts:30
 
 > `readonly` **frozen**: `string`
 
-Defined in: src/types/api/index.ts:31
+Defined in: [src/types/api/index.ts:31](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L31)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: src/types/api/index.ts:31
 
 > `readonly` **total**: `string`
 
-Defined in: src/types/api/index.ts:32
+Defined in: [src/types/api/index.ts:32](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/types/api/index.ts#L32)

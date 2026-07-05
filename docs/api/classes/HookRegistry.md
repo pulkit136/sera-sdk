@@ -6,7 +6,7 @@
 
 # Class: HookRegistry
 
-Defined in: src/hooks/index.ts:9
+Defined in: [src/hooks/index.ts:9](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/index.ts#L9)
 
 A lightweight synchronous and asynchronous lifecycle hook registry.
 Hooks execute sequentially, allowing callbacks to inspect or mutate payloads.
@@ -27,7 +27,7 @@ Hooks execute sequentially, allowing callbacks to inspect or mutate payloads.
 
 > **emit**\<`K`\>(`event`, `data`): `Promise`\<[`HookPayloads`](../interfaces/HookPayloads.md)\[`K`\]\>
 
-Defined in: src/hooks/index.ts:39
+Defined in: [src/hooks/index.ts:39](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/index.ts#L39)
 
 Emit a hook sequentially, awaiting async callbacks and passing mutated payloads.
 
@@ -57,7 +57,7 @@ Emit a hook sequentially, awaiting async callbacks and passing mutated payloads.
 
 > **off**\<`K`\>(`event`, `callback`): `this`
 
-Defined in: src/hooks/index.ts:27
+Defined in: [src/hooks/index.ts:27](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/index.ts#L27)
 
 Unregister a callback from a hook.
 
@@ -87,7 +87,7 @@ Unregister a callback from a hook.
 
 > **on**\<`K`\>(`event`, `callback`): `this`
 
-Defined in: src/hooks/index.ts:15
+Defined in: [src/hooks/index.ts:15](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/index.ts#L15)
 
 Register a callback for a specific lifecycle hook.
 
@@ -117,7 +117,7 @@ Register a callback for a specific lifecycle hook.
 
 > **removeAllHooks**(): `void`
 
-Defined in: src/hooks/index.ts:64
+Defined in: [src/hooks/index.ts:64](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/hooks/index.ts#L64)
 
 Remove all hook listeners.
 

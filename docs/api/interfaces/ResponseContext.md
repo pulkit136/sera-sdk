@@ -6,7 +6,7 @@
 
 # Interface: ResponseContext
 
-Defined in: src/http/types.ts:38
+Defined in: [src/http/types.ts:38](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L38)
 
 Execution context of a received response passed through middleware.
 
@@ -20,7 +20,7 @@ Execution context of a received response passed through middleware.
 
 > `readonly` **attempt**: `number`
 
-Defined in: src/http/types.ts:30
+Defined in: [src/http/types.ts:30](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L30)
 
 #### Inherited from
 
@@ -32,7 +32,7 @@ Defined in: src/http/types.ts:30
 
 > `readonly` `optional` **body?**: `any`
 
-Defined in: src/http/types.ts:28
+Defined in: [src/http/types.ts:28](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L28)
 
 #### Inherited from
 
@@ -44,7 +44,7 @@ Defined in: src/http/types.ts:28
 
 > `readonly` **client**: [`SeraClient`](../classes/SeraClient.md)
 
-Defined in: src/http/types.ts:32
+Defined in: [src/http/types.ts:32](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L32)
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ Defined in: src/http/types.ts:32
 
 > `readonly` **durationMs**: `number`
 
-Defined in: src/http/types.ts:44
+Defined in: [src/http/types.ts:44](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L44)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: src/http/types.ts:44
 
 > `readonly` **headers**: `Record`\<`string`, `string`\>
 
-Defined in: src/http/types.ts:27
+Defined in: [src/http/types.ts:27](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L27)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ Defined in: src/http/types.ts:27
 
 > `readonly` **method**: [`HttpMethod`](../type-aliases/HttpMethod.md)
 
-Defined in: src/http/types.ts:25
+Defined in: [src/http/types.ts:25](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L25)
 
 #### Inherited from
 
@@ -88,7 +88,7 @@ Defined in: src/http/types.ts:25
 
 > `readonly` **options**: [`HttpRequestOptions`](HttpRequestOptions.md)
 
-Defined in: src/http/types.ts:31
+Defined in: [src/http/types.ts:31](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L31)
 
 #### Inherited from
 
@@ -100,7 +100,7 @@ Defined in: src/http/types.ts:31
 
 > `readonly` **parsedBody**: `any`
 
-Defined in: src/http/types.ts:41
+Defined in: [src/http/types.ts:41](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L41)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: src/http/types.ts:41
 
 > `readonly` **path**: `string`
 
-Defined in: src/http/types.ts:24
+Defined in: [src/http/types.ts:24](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L24)
 
 #### Inherited from
 
@@ -120,7 +120,7 @@ Defined in: src/http/types.ts:24
 
 > `readonly` **rawBody**: `string`
 
-Defined in: src/http/types.ts:40
+Defined in: [src/http/types.ts:40](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L40)
 
 ***
 
@@ -128,7 +128,7 @@ Defined in: src/http/types.ts:40
 
 > `readonly` **requestId**: `string`
 
-Defined in: src/http/types.ts:29
+Defined in: [src/http/types.ts:29](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L29)
 
 #### Inherited from
 
@@ -140,7 +140,7 @@ Defined in: src/http/types.ts:29
 
 > `readonly` **response**: `Response`
 
-Defined in: src/http/types.ts:39
+Defined in: [src/http/types.ts:39](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L39)
 
 ***
 
@@ -148,7 +148,7 @@ Defined in: src/http/types.ts:39
 
 > `readonly` **responseHeaders**: `Record`\<`string`, `string`\>
 
-Defined in: src/http/types.ts:43
+Defined in: [src/http/types.ts:43](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L43)
 
 ***
 
@@ -156,7 +156,7 @@ Defined in: src/http/types.ts:43
 
 > `readonly` **status**: `number`
 
-Defined in: src/http/types.ts:42
+Defined in: [src/http/types.ts:42](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L42)
 
 ***
 
@@ -164,7 +164,7 @@ Defined in: src/http/types.ts:42
 
 > `readonly` **url**: `string`
 
-Defined in: src/http/types.ts:26
+Defined in: [src/http/types.ts:26](https://github.com/pulkit136/sera-sdk/blob/2ed7dad754971ad4ba0274a7b1580b8f7b81abbb/src/http/types.ts#L26)
 
 #### Inherited from
 

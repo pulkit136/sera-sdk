@@ -20,7 +20,7 @@ Only the latest active major and minor releases of the SDK receive security patc
 **DO NOT file public GitHub issues for security vulnerabilities.**
 
 Instead, please send security reports directly to our core security team:
-*   **Email**: security@sera.cx
+*   **Email**: pulkitlather.work@gmail.com
 *   **Response Time**: We acknowledge receipt of security reports within 24 hours and aim to provide a fix or mitigation guide within 7 days.
 
 ---
