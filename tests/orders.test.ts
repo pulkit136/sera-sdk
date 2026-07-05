@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { SeraClient } from '../src/client.js';
 import { ISeraSigner } from '../src/auth/types.js';
 import { RawCreateOrderResponse, RawCancelOrderResponse, RawOrder } from '../src/types/api/index.js';
-import { OrderSide, OrderStatus, TimeInForce } from '../src/types/enums/index.js';
+import { OrderSide, OrderStatus } from '../src/types/enums/index.js';
 import { OrderId } from '../src/types/shared/branded.js';
 
 describe('OrdersModule and Query Builder Integration Tests', () => {

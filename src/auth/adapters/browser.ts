@@ -5,9 +5,9 @@ import { ISeraSigner, TypedDataDomain, TypedDataField } from '../types.js';
  * and issues standard JSON-RPC signing calls.
  */
 export class BrowserWalletAdapter implements ISeraSigner {
-  private readonly provider: any;
+  private readonly provider: unknown;
 
-  constructor(provider?: any) {
+  constructor(provider?: unknown) {
     const resolvedProvider = provider ?? (typeof window !== 'undefined' ? (window as any).ethereum : undefined);
     if (!resolvedProvider) {
       throw new Error('BrowserWalletAdapter: No injected Ethereum provider detected.');
@@ -26,7 +26,7 @@ export class BrowserWalletAdapter implements ISeraSigner {
   public async signTypedData(
     domain: TypedDataDomain,
     types: Record<string, TypedDataField[]>,
-    value: Record<string, any>
+    value: Record<string, unknown>
   ): Promise<`0x${string}`> {
     const address = await this.getAddress();
     const primaryType = Object.keys(types)[0];

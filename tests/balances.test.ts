@@ -2,7 +2,6 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { SeraClient } from '../src/client.js';
 import { ISeraSigner } from '../src/auth/types.js';
 import { RawBalancesResponse } from '../src/types/api/index.js';
-import { Address } from '../types/shared/branded.js';
 
 describe('BalancesModule and Caching Integration Tests', () => {
   let client: SeraClient;

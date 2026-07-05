@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { SeraClient } from '../src/client.js';
 import { ISeraSigner } from '../src/auth/types.js';
-import { RawCreateVlBatchResponse, RawVirtualLiquidityBatch, RawOrder } from '../src/types/api/index.js';
+import { RawCreateVlBatchResponse, RawVirtualLiquidityBatch } from '../src/types/api/index.js';
 import { OrderSide, LiquidityStatus } from '../src/types/enums/index.js';
 import { BatchId } from '../src/types/shared/branded.js';
 

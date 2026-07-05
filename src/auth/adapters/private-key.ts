@@ -7,7 +7,7 @@ import { SeraValidationError } from '../../errors/classes.js';
  */
 export class PrivateKeySignerAdapter implements ISeraSigner {
   private readonly privateKey: string;
-  private delegateSigner?: any;
+  private delegateSigner?: DelegateSigner;
 
   constructor(privateKey: string) {
     const formatted = privateKey.startsWith('0x') ? privateKey : `0x${privateKey}`;
@@ -20,52 +20,65 @@ export class PrivateKeySignerAdapter implements ISeraSigner {
 
   public async getAddress(): Promise<`0x${string}`> {
     await this.resolveDelegate();
-    return this.delegateSigner.getAddress();
+    // delegateSigner is guaranteed after resolveDelegate
+    return this.delegateSigner!.getAddress();
   }
 
   public async signTypedData(
     domain: TypedDataDomain,
     types: Record<string, TypedDataField[]>,
-    value: Record<string, any>
+    value: Record<string, unknown>,
   ): Promise<`0x${string}`> {
     await this.resolveDelegate();
-    return this.delegateSigner.signTypedData(domain, types, value);
+    return this.delegateSigner!.signTypedData(domain, types, value);
   }
 
   private async resolveDelegate(): Promise<void> {
     if (this.delegateSigner) return;
 
-    // 1. Try resolving ethers
+    // Try ethers first
     try {
-      const ethersLib = 'ethers';
-      const { Wallet } = await import(ethersLib);
-      this.delegateSigner = new Wallet(this.privateKey);
+      const { Wallet } = await import('ethers');
+      const wallet = new Wallet(this.privateKey);
+      this.delegateSigner = {
+        getAddress: () => wallet.getAddress(),
+        signTypedData: (domain, types, value) => wallet.signTypedData(domain, types, value),
+      } as DelegateSigner;
       return;
     } catch {
-      // Fallback to viem
+      // fallback
     }
 
-    // 2. Try resolving viem
+    // Try viem
     try {
-      const viemAccountsLib = 'viem/accounts';
-      const { privateKeyToAccount } = await import(viemAccountsLib);
+      const { privateKeyToAccount } = await import('viem/accounts');
       const account = privateKeyToAccount(this.privateKey as `0x${string}`);
       this.delegateSigner = {
         getAddress: async () => account.address,
-        signTypedData: async (domain: any, types: any, value: any) => {
+        signTypedData: async (domain, types, value) => {
           return account.signTypedData({
             domain,
             types,
             primaryType: Object.keys(types)[0],
-            message: value,
+            message: value as Record<string, unknown>,
           });
         },
-      };
+      } as DelegateSigner;
       return;
-    } catch (err: any) {
+    } catch (err: unknown) {
       throw new Error(
-        `PrivateKeySignerAdapter: Local in-process signing requires "ethers" or "viem" installed as a peer dependency. (Details: ${err?.message || err})`
+        `PrivateKeySignerAdapter: Local in-process signing requires "ethers" or "viem" installed as a peer dependency. (Details: ${(err as any)?.message || err})`,
       );
     }
   }
+}
+
+/** Minimal interface for delegate signer */
+interface DelegateSigner {
+  getAddress(): Promise<`0x${string}`>;
+  signTypedData(
+    domain: TypedDataDomain,
+    types: Record<string, TypedDataField[]>,
+    value: Record<string, unknown>,
+  ): Promise<`0x${string}`>;
 }

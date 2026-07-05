@@ -8,7 +8,6 @@ import { ViemSignerAdapter } from '../src/auth/adapters/viem.js';
 import { EthersSignerAdapter } from '../src/auth/adapters/ethers.js';
 import { BrowserWalletAdapter } from '../src/auth/adapters/browser.js';
 import {
-  SeraNoSignerConfiguredError,
   SeraAuthenticationRequiredError,
   SeraValidationError,
 } from '../src/errors/classes.js';
