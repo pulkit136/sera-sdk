@@ -6,21 +6,19 @@ import { SeraValidationError } from '../../errors/classes.js';
  * Dynamically resolves either 'ethers' or 'viem' peer dependencies.
  */
 export class PrivateKeySignerAdapter implements ISeraSigner {
-  private readonly privateKey: string;
+  private readonly privateKey: `0x${string}`;
   private delegateSigner?: DelegateSigner;
 
   constructor(privateKey: string) {
     const formatted = privateKey.startsWith('0x') ? privateKey : `0x${privateKey}`;
-    // Private keys are 32 bytes = 64 hex characters + '0x' prefix
     if (formatted.length !== 66 || !/^0x[0-9a-f]{64}$/i.test(formatted)) {
       throw new SeraValidationError('Invalid private key format: Must be a 32-byte hex string.');
     }
-    this.privateKey = formatted;
+    this.privateKey = formatted as `0x${string}`;
   }
 
   public async getAddress(): Promise<`0x${string}`> {
     await this.resolveDelegate();
-    // delegateSigner is guaranteed after resolveDelegate
     return this.delegateSigner!.getAddress();
   }
 
@@ -52,7 +50,7 @@ export class PrivateKeySignerAdapter implements ISeraSigner {
     // Try viem
     try {
       const { privateKeyToAccount } = await import('viem/accounts');
-      const account = privateKeyToAccount(this.privateKey as `0x${string}`);
+      const account = privateKeyToAccount(this.privateKey);
       this.delegateSigner = {
         getAddress: async () => account.address,
         signTypedData: async (domain, types, value) => {

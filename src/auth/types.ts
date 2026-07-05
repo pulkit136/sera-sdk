@@ -3,7 +3,7 @@
 export interface TypedDataDomain {
   name?: string;
   version?: string;
-  chainId?: number | string;
+  chainId?: number | bigint;
   verifyingContract?: `0x${string}`;
   salt?: `0x${string}`;
 }
@@ -18,7 +18,7 @@ export interface ISeraSigner {
   signTypedData(
     domain: TypedDataDomain,
     types: Record<string, TypedDataField[]>,
-    value: Record<string, any>
+    value: Record<string, unknown>
   ): Promise<`0x${string}`>;
 }
 

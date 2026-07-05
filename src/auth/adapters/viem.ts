@@ -1,16 +1,27 @@
 import { ISeraSigner, TypedDataDomain, TypedDataField } from '../types.js';
 
+interface ViemWalletClient {
+  getAddresses(): Promise<`0x${string}`[]>;
+  signTypedData(args: {
+    account: `0x${string}`;
+    domain: TypedDataDomain;
+    types: Record<string, TypedDataField[]>;
+    primaryType: string;
+    message: Record<string, unknown>;
+  }): Promise<`0x${string}`>;
+}
+
 /**
  * Adapter that wraps a Viem WalletClient and maps it to the universal ISeraSigner interface.
  */
 export class ViemSignerAdapter implements ISeraSigner {
-  private readonly client: any;
+  private readonly client: ViemWalletClient;
 
-  constructor(walletClient: any) {
-    if (!walletClient || typeof walletClient.signTypedData !== 'function') {
+  constructor(walletClient: unknown) {
+    if (!walletClient || typeof (walletClient as Record<string, unknown>).signTypedData !== 'function') {
       throw new Error('Invalid Viem client: must implement signTypedData');
     }
-    this.client = walletClient;
+    this.client = walletClient as ViemWalletClient;
   }
 
   public async getAddress(): Promise<`0x${string}`> {
@@ -21,7 +32,7 @@ export class ViemSignerAdapter implements ISeraSigner {
   public async signTypedData(
     domain: TypedDataDomain,
     types: Record<string, TypedDataField[]>,
-    value: Record<string, any>
+    value: Record<string, unknown>
   ): Promise<`0x${string}`> {
     const address = await this.getAddress();
     
