@@ -1,5 +1,5 @@
 {
-  "name": "@sera-protocol/sdk",
+  "name": "@pulkitlather/sera-sdk",
   "version": "1.0.0",
   "description": "Official TypeScript SDK for Sera Protocol",
   "type": "module",
