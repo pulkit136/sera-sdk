@@ -1,0 +1,44 @@
+name: 🐛 Bug Report
+description: File a reproducible bug report to help us improve the SDK.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please verify that you are running the latest version of `@sera-protocol/sdk` and that the issue has not already been reported in the issue tracker.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the bug.
+      placeholder: Describe what occurred...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Provide a minimal code snippet or a sequence of steps to reproduce the issue.
+      placeholder: |
+        import { SeraClient } from '@sera-protocol/sdk';
+        // Your minimal code here
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Info
+      description: Specify versions, adapters, and environment scopes.
+      placeholder: |
+        - SDK Version: 1.0.0-beta.0
+        - Node Version: 18.2.0
+        - Signer Adapter: ViemSignerAdapter / PrivateKeySignerAdapter
+        - Target Network: Testnet / Mainnet
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Debug Logs / Stack Trace
+      description: Provide any raw console outputs or SDK error codes here.
+      placeholder: Paste console output here...

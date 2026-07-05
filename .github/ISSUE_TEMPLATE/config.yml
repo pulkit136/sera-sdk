@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or Support
+    url: https://github.com/sera-protocol/sdk/discussions
+    about: Please ask questions or request integration support in our GitHub Discussions board.
+  - name: Discord Community
+    url: https://discord.gg/seraprotocol
+    about: Join our developer community on Discord to discuss FX stablecoin CLOB tooling.

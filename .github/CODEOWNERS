@@ -1,0 +1,9 @@
+# Global owners
+# These users will be requested for reviews on all changes by default.
+*       @sera-protocol/core-team
+
+# Github Action CI/CD and Template configurations
+/.github/ @sera-protocol/devops
+
+# Example projects
+/examples/ @sera-protocol/devrel
