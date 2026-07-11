@@ -2,12 +2,6 @@
 
 Sera Protocol is a decentralized stablecoin FX settlement layer featuring an on-chain Central Limit Order Book (CLOB). This SDK simplifies stablecoin integration by providing complete type safety, automated credential authentication, EIP-712 cryptographic signing, and resilient transport pipelines. Developers can quickly integrate FX swaps, limit orders, and payments into browsers, backend Node.js, edge functions, or AI agents.
 
-[![NPM Version](https://img.shields.io/npm/v/@sera-protocol/sdk?color=blue)](https://www.npmjs.com/package/@pulkitlather/sera-sdk)
-[![License](https://img.shields.io/npm/l/@sera-protocol/sdk)](./LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)](https://www.typescriptlang.org/)
-[![Tests](https://img.shields.io/badge/Tests-Passing-green)](#testing)
-[![Node](https://img.shields.io/badge/Node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
-
 ---
 
 ### Community Project Disclaimer
